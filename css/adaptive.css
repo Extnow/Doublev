@@ -503,3 +503,9 @@
     font-size: 12px;
   }
 }
+
+@media (max-width:697px){
+  .news_and_sales__block{
+    margin: 0 auto 40px auto;
+  }
+}
