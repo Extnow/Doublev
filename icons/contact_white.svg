@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="16px" viewBox="0 0 21 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>contact</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="contact">
+            <path d="M17,9.49724575 L17,15 L1,15 L1,1 L13.4793595,1 L17,9.49724575 Z" id="Rectangle-15" stroke="#fff" stroke-width="2"></path>
+            <polygon id="Rectangle-16" fill="#fff" transform="translate(12.326871, 7.809405) rotate(45.000000) translate(-12.326871, -7.809405) " points="10.3268708 2.77109769 14.3268708 2.77109769 14.3268708 10.8477133 12.3268708 12.8477133 10.3268708 10.8477133"></polygon>
+            <rect id="Rectangle-17" fill="#fff" transform="translate(18.121320, 2.121320) rotate(45.000000) translate(-18.121320, -2.121320) " x="16.1213203" y="1.12132034" width="4" height="2"></rect>
+        </g>
+    </g>
+</svg>

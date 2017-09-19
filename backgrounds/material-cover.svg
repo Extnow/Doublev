@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="127px" height="151px" viewBox="0 0 127 151" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>material-cover</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="176" height="220"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="material-cover" transform="translate(-49.000000, -69.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group-8" mask="url(#mask-2)">
+                <g transform="translate(138.674633, 190.724109) rotate(-300.000000) translate(-138.674633, -190.724109) translate(23.674633, 60.724109)" id="Group-7">
+                    <g transform="translate(85.076869, 28.935849)">
+                        <g id="Group-6" transform="translate(30.676977, 58.611281)" fill="#00769A">
+                            <rect id="Rectangle-2" x="-2.22044605e-13" y="1.77857729e-13" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.19015908e-13" y="4.82264151" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.3500312e-13" y="9.64528302" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-2.06057393e-13" y="14.4679245" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-9.23705556e-14" y="19.290566" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="5.32907052e-15" y="24.1132075" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                        <g id="Group-6" transform="translate(72.373494, 72.110333) rotate(90.000000) translate(-72.373494, -72.110333) translate(58.873494, 58.610333)" fill="#00769A">
+                            <rect id="Rectangle-2" x="1.10134124e-13" y="9.64528302" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="2.48689958e-14" y="14.4679245" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-3.19744231e-14" y="19.290566" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-3.19744231e-14" y="24.1132075" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                        <g id="Group-6" transform="translate(14.496571, 72.110333) rotate(90.000000) translate(-14.496571, -72.110333) translate(0.996571, 58.610333)" fill="#00769A">
+                            <rect id="Rectangle-2" x="-1.0658141e-13" y="1.996181e-13" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="2.20268248e-13" y="4.82264151" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="2.13162821e-14" y="9.64528302" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="7.81597009e-14" y="14.4679245" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-1.49213975e-13" y="19.290566" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-7.10542736e-15" y="24.1132075" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                        <g id="Group-6" transform="translate(1.738516, 87.547131)" fill="#00769A">
+                            <rect id="Rectangle-2" x="-3.01980663e-14" y="-1.48769885e-14" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.97175609e-13" y="4.82264151" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.97175609e-13" y="9.64528302" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="2.54019028e-13" y="14.4679245" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-3.01980663e-14" y="19.290566" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="2.66453526e-14" y="24.1132075" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                        <g id="Group-6" transform="translate(59.615439, 87.547131)" fill="#00769A">
+                            <rect id="Rectangle-2" x="0" y="0" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="0" y="4.82264151" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="0" y="9.64528302" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.70530257e-13" y="14.4679245" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-2.27373675e-13" y="19.290566" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                        <g id="Group-6" transform="translate(43.435032, 101.046182) rotate(90.000000) translate(-43.435032, -101.046182) translate(29.935032, 87.546182)" fill="#00769A">
+                            <rect id="Rectangle-2" x="1.33226763e-13" y="9.32587341e-14" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="2.18491891e-13" y="4.82264151" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.61648472e-13" y="9.64528302" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.61648472e-13" y="14.4679245" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="3.05533376e-13" y="19.290566" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.63424829e-13" y="24.1132075" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                        <g id="Group-6" transform="translate(1.738516, 29.675432)" fill="#00769A">
+                            <rect id="Rectangle-2" x="1.70530257e-13" y="14.4679245" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="2.55795385e-13" y="19.290566" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-1.42108547e-13" y="24.1132075" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                    </g>
+                    <g transform="translate(28.938462, 115.743396)">
+                        <g id="Group-6" transform="translate(41.696516, 72.110333) rotate(90.000000) translate(-41.696516, -72.110333) translate(28.196516, 58.610333)" fill="#00769A">
+                            <rect id="Rectangle-2" x="1.45661261e-13" y="5.81756865e-14" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="3.73034936e-13" y="4.82264151" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="2.0250468e-13" y="9.64528302" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="2.87769808e-13" y="14.4679245" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.45661261e-13" y="19.290566" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="3.73034936e-13" y="24.1132075" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                        <g id="Group-6" transform="translate(0.000000, 0.739583)" fill="#00769A">
+                            <rect id="Rectangle-2" x="0" y="0" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="2.84217094e-14" y="4.82264151" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="8.52651283e-14" y="9.64528302" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.98951966e-13" y="14.4679245" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="2.27373675e-13" y="19.290566" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-8.52651283e-14" y="24.1132075" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                        <g id="Group-6" transform="translate(41.696516, 14.238635) rotate(90.000000) translate(-41.696516, -14.238635) translate(28.196516, 0.738635)" fill="#00769A">
+                            <rect id="Rectangle-2" x="-4.79616347e-14" y="4.32098801e-13" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="4.86277685e-13" y="4.82264151" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.88959959e-13" y="9.64528302" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.50990331e-13" y="14.4679245" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.87849736e-13" y="19.290566" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.00142117e-13" y="24.1132075" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                    </g>
+                    <g transform="translate(0.000000, 0.000000)">
+                        <g id="Group-6" transform="translate(28.938462, 58.611281)" fill="#00769A">
+                            <rect id="Rectangle-2" x="3.14415161e-13" y="1.43440815e-13" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-5.5067062e-14" y="4.82264151" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.77635684e-15" y="9.64528302" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-3.10862447e-13" y="14.4679245" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-1.687539e-13" y="19.290566" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-1.687539e-13" y="24.1132075" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                        <g id="Group-6" transform="translate(70.634978, 72.110333) rotate(90.000000) translate(-70.634978, -72.110333) translate(57.134978, 58.610333)" fill="#00769A">
+                            <rect id="Rectangle-2" x="9.76996262e-14" y="-1.79189996e-13" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="2.80664381e-13" y="4.82264151" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="3.37507799e-13" y="9.64528302" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="3.0908609e-13" y="14.4679245" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="5.32907052e-14" y="19.290566" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.95399252e-13" y="24.1132075" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                        <g id="Group-6" transform="translate(0.000000, 87.547131)" fill="#00769A">
+                            <rect id="Rectangle-2" x="0" y="0" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="5.68434189e-14" y="4.82264151" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.0658141e-13" y="9.64528302" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.84741111e-13" y="14.4679245" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.3500312e-13" y="19.290566" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="2.98427949e-13" y="24.1132075" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                        <g id="Group-6" transform="translate(57.876923, 87.547131)" fill="#00769A">
+                            <rect id="Rectangle-2" x="0" y="0" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="0" y="4.82264151" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="0" y="9.64528302" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.70530257e-13" y="14.4679245" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.70530257e-13" y="19.290566" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-2.27373675e-13" y="24.1132075" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                        <g id="Group-6" transform="translate(57.876923, 29.675432)" fill="#00769A">
+                            <rect id="Rectangle-2" x="-1.13686838e-13" y="24.1132075" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                    </g>
+                    <g transform="translate(85.076869, 144.679245)">
+                        <g id="Group-6" transform="translate(30.676977, 0.739583)" fill="#00769A">
+                            <rect id="Rectangle-2" x="0" y="-2.10942375e-14" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="0" y="4.82264151" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-5.68434189e-14" y="9.64528302" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.70530257e-13" y="14.4679245" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="2.27373675e-13" y="19.290566" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.70530257e-13" y="24.1132075" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                        <g id="Group-6" transform="translate(14.496571, 14.238635) rotate(90.000000) translate(-14.496571, -14.238635) translate(0.996571, 0.738635)" fill="#00769A">
+                            <rect id="Rectangle-2" x="-1.59872116e-14" y="2.50022225e-13" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="2.48245868e-13" y="4.82264151" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="2.68896017e-13" y="9.64528302" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.63424829e-13" y="14.4679245" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="5.81756865e-14" y="19.290566" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="3.44169138e-14" y="24.1132075" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                        <g id="Group-6" transform="translate(1.738516, 29.675432)" fill="#00769A">
+                            <rect id="Rectangle-2" x="-1.56319402e-13" y="7.79376563e-14" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-1.77635684e-15" y="4.82264151" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="8.34887715e-14" y="9.64528302" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="1.97175609e-13" y="14.4679245" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-2.29150032e-13" y="19.290566" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="-1.15463195e-13" y="24.1132075" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                        <g id="Group-6" transform="translate(43.435032, 43.174484) rotate(90.000000) translate(-43.435032, -43.174484) translate(29.935032, 29.674484)" fill="#00769A">
+                            <rect id="Rectangle-2" x="1.13686838e-13" y="19.290566" width="26.2589744" height="2.14339623"></rect>
+                            <rect id="Rectangle-2" x="6.57252031e-14" y="24.1132075" width="26.2589744" height="2.14339623"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
