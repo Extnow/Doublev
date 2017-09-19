@@ -218,6 +218,13 @@ a{
   border-radius: 50px;
   justify-content: center;
   cursor: pointer;
+  background: url(../icons/magnifyer.svg) no-repeat 50%;
+}
+
+.search:hover{
+  background: url(../icons/magnifyer_white.svg) no-repeat 50%;
+  color: #fff;
+  background-color: #00815d;
 }
 
 .btn{
