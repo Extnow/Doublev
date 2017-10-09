@@ -21,9 +21,5 @@ jQuery(document).ready(function(){
   showProduct('#tab-prod', '#final_product', '#materials', '#technology', 'pr2_bg.png', '#ddddde');
   showProduct('#tab-tech', '#technology', '#final_product', '#materials', 'pr3_bg.png', '#e8e8e8');
   changeActiveTab();
-
-  // $('#catalog').click(function(e) {
-  //   $('.menu').css('visibility', 'visible');
-  // });
   
 });

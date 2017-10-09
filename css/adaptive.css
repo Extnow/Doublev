@@ -11,8 +11,11 @@
 }
 
 @media (max-width:1089px){
-  .header_second {
-    font-size: 12px;
+  .nav {
+    justify-content: flex-start;
+  }
+  .nav__item {
+    padding-left: 15px;
   }
   .btn_price__text-top {
     font-size: 10px;
@@ -27,7 +30,10 @@
   }
 }
 
-@media (max-width:890px){
+@media (max-width:895px){
+  .nav {
+    width: 630px;
+  }
   .footer__desc {
     font-size: 12px;
   }
@@ -38,7 +44,7 @@
     font-size: 12px;
   }
   .nav__footer {
-    width: 420px;
+    width: auto;
     font-size: 12px;
   }
 }
@@ -225,24 +231,25 @@
     display: inline-block;
   }
 
-  #tab-mat{
+  #tab-mat, #tab-prod, #tab-tech  {
     width: 390px;
     text-align: center;
   }
-  #tab-prod{
+
+  #tab-prod {
     display: none;
   }
 
-  #tab-tech{
+  #tab-tech {
     display: none;
   }
 
-  .materials{
+  .materials, .product, .technology {
     width: 235px;
     height: 100px;
   }
 
-  .cat__text{
+  .cat__text {
     font-size: 20px;
     font-family: "freesetlightc";
     padding: 20px 0 0 19px;
@@ -266,6 +273,11 @@
  
   .foil:hover, .glue:hover, .label:hover, .narrow-print:hover{
     background: #00815d;
+  }
+
+  .news_and_sales__block:nth-child(4),
+  .news_and_sales__block:nth-child(5){
+    display: none;
   }
 
   .btn__all_sales{
@@ -340,9 +352,14 @@
   }
 }
 
-@media (max-width:697px){
-  .news_and_sales__block{
+@media (max-width:697px) {
+  .news_and_sales__block {
     margin: 0 auto 40px auto;
+  }
+
+  .cat__text {
+    font-size: 14px;
+    padding: 10px 0 0 10px;
   }
 }
 
@@ -374,6 +391,26 @@
 
   .btn-feedback-tablet{
     order: 3;
+  }
+
+  .banner__desc__first, .banner__desc__second {
+    width: 210px;
+  }
+
+  .banner__desc__second, .banner__title {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width:355px){
+  .sale__desc-text{
+    display: none;
+  }
+  .news_and_sales__block {
+    height: 370px;
+  }
+  .sale__desc {
+    padding: 0 20px;
   }
 }
 
@@ -461,6 +498,7 @@
   }
 
   .cat__text {
+    font-size: 20px;
     padding: 0 0 0 20px;
   }
 
@@ -471,7 +509,8 @@
   .materials, .product, .technology {
     max-width: 278px;
     width: 100%;
-    height: 70px;
+    height: auto;
+    padding: 27px 20px 27px 0;
   }
 
   .paper, .films, .lacquer, .book, .digital-print{
@@ -496,7 +535,6 @@
 
   .btn__all_sales {
     font-size: 16px;
-    text-align: center;
   }
   
   .footer__first{

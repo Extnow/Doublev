@@ -156,6 +156,7 @@ a {
 
 .nav{
   width: 807px;
+  flex-wrap: wrap;
 }
 
 .nav__item-catalog {
