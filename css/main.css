@@ -373,6 +373,8 @@ a {
   line-height: 1;
   padding-top: 100px;
   padding-bottom: 60px;
+  font-weight: normal;
+  margin: 0;
 }
 
 .tabs{
