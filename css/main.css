@@ -37,13 +37,20 @@ ul {
   margin: 0;
 }
 
-button {
-  outline: none;
-}
-
 a {
   text-decoration: none;
   color: #fff;
+}
+
+.visuallyHidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
 }
 
 .container {
@@ -73,6 +80,29 @@ a {
   justify-content: space-between;
 }
 
+.flex-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* прибитие футера */
+
+.wrapper {
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+}
 
 /* ------------- HEADER_FIRST ------------------- */
 
@@ -82,7 +112,7 @@ a {
 }
 
 .header_first__content{
-  height: 50px;
+  min-height: 50px;
 }
 
 .header_description{
@@ -101,17 +131,20 @@ a {
   width: 180px
 }
 
-.social-icons {
-  width: 98px;
-  margin-left: 5px;
-}
-
 .social-icon {
-  background-color: #006e4f;
-  border-radius: 50px;
+  border-radius: 13px;
   width: 26px;
   height: 26px;
+  min-height: 26px;
   transition: 0.8s; 
+}
+
+.social-item {
+  margin-left: 10px;
+}
+
+.social-item:nth-child(1) {
+  margin-left: 0;
 }
 
 .fb{
@@ -147,11 +180,12 @@ a {
 /*------------ HEADER_SECOND --------------------*/
 
 .header_second__content{
-  height: 100px;
+  min-height: 100px;
 }
 
-.logo{
-  width: 122px;
+.logo__pic{
+  max-width: 124px;
+  max-height: 55px;
 }
 
 .nav{
@@ -186,7 +220,7 @@ a {
   flex-direction: row;
   top: 130px;
   width: 550px;
-  height: 175px;
+  min-height: 175px;
   background-color: #fff;
   padding: 30px 30px;
   box-shadow: 0px -4px 16px -1px rgba(200,200,200,1);
@@ -210,7 +244,7 @@ a {
 }
 
 .search{
-  height: 40px;
+  min-height: 40px;
   width: 40px;
   margin-left: 5px;
   border: 1px solid #c1ded5;
@@ -261,18 +295,20 @@ a {
 
 .banner{
   background: url(../img/banner.png) no-repeat 50%, #eae4e7;
-  height: 682px;
+  min-height: 682px;
   box-shadow: inset 0px 10px 104px -8px rgba(85,85,85,0.6);
 }
 
 .banner__title{
-  width: 372px;
   padding-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .banner__title__h1{
   font-family: "a_empirial";
-  font-size: 160px;
+  font-size: 145px;
   line-height: 1;
 }
 
@@ -284,6 +320,7 @@ a {
   background-color: #ee1a26;
   width: 73px;
   height: 73px;
+  margin-left: 40px;
   text-transform: uppercase;
   color: #fff;
   font-family: "freesetlightc";
@@ -300,11 +337,15 @@ a {
 
 .banner_sizes{
   padding-top: 50px;
-  width: 295px;
 }
 
 .size{
   font-size: 25px;
+  margin-right: 50px;
+}
+
+.size:last-child{
+  margin-right: 0;
 }
 
 .size:before {
@@ -438,6 +479,11 @@ a {
   height: 168px;
 }
 
+.product, .technology{
+  width: 391px;
+  height: 265px;
+}
+
 .cat__text{
   padding: 20px 0 0 25px;
   margin: 0;
@@ -517,12 +563,6 @@ a {
   display: none;
 }
 
-.product, .technology{
-  width: 391px;
-  height: 265px;
-}
-
-
 /* --------- section__news_and_sales ------------------- */
 
 .news_and_sales{
@@ -580,7 +620,7 @@ a {
 
 .flag{
   padding-top: 20px;
-  height: 25px; 
+  height: 25px;
   overflow: hidden;
   position: absolute;
 }
@@ -602,7 +642,7 @@ a {
 }
 
 .f-left, .f-right{ 
-  height: 100%; 
+  min-height: 100%; 
   width: 80%;
 } 
 
@@ -652,11 +692,11 @@ a {
 
 .footer__first{
   background-color: #edf1f1;
-  height: 100px;
+  min-height: 100px;
 }
 
 .footer__first__content{
-  height: 100px;
+  min-height: 100px;
 }
 
 .footer__first__content-tablet{
@@ -689,7 +729,7 @@ a {
 }
 
 .footer__second__content{
-  height: 100px;
+  min-height: 100px;
   color: #fff;
   font-family: freesetlightc;
 }

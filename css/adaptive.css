@@ -1,5 +1,6 @@
 @media (max-width:1156px){
   .news_and_sales{
+    justify-content: space-around;
     justify-content: space-evenly;
   }
 }
@@ -116,7 +117,7 @@
   }
 
   .banner{
-    height: 270px;
+    min-height: 270px;
   }
 
   .container-banner{
@@ -149,7 +150,6 @@
 
   .banner_sizes{
     padding-top: 10px;
-    width: 140px;
   }
 
   .size{
@@ -285,7 +285,7 @@
   }
   
   .footer__first{
-    height: 80px;
+    min-height: 80px;
     background-color: #00815d;
     color: #fff;
   }
@@ -372,6 +372,7 @@
     flex-direction: column;
     flex-flow: column wrap;
     align-items: center;
+    justify-content: space-around;
     justify-content: space-evenly;
     height: 200px;
   }
@@ -451,7 +452,6 @@
   .sale__desc-title{
     font-size: 16px;
     padding-bottom: 30px;
-    padding-right: 20px;
   }
 
   .sale__desc-text{
@@ -473,7 +473,7 @@
   }
 
   .banner{
-    height: 115px;
+    min-height: 115px;
   }
 
   .banner__desc__first, .banner_sizes,
@@ -545,6 +545,7 @@
     flex-direction: column;
     flex-flow: column wrap;
     align-items: center;
+    justify-content: space-around;
     justify-content: space-evenly;
     height: 200px;
   }
