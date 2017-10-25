@@ -34,22 +34,24 @@
           </div>
 
           <div class="header_first__content-tablet">
-            <div class="menu-tablet opacity">
+            <a href="#" class="menu-tablet opacity">
               <img class="menu-tablet-burher" src="icons/burger_white.svg" alt="menu">
               <p class="header__description opacity">Меню</p>
-            </div>
+            </a>
             <a href="#">
               <img class="tablet-logo" src="img/logo-tablet.png" alt="logo" class="logo__pic">
             </a>
-            <img class="tablet-search" src="icons/magnifyer_white.svg" alt="search">
-            <div class="tablet-price opacity">
-              <img src="icons/price_white.svg" alt="search">
+            <button class="search-tablet" aria-label="Поиск">
+              <img class="tablet-search" src="icons/magnifyer_white.svg" alt="search">
+            </button>
+            <a href="#" class="tablet-price opacity">
+              <img src="icons/price_white.svg" alt="pricelist icon">
               <p class="header__description">Прайс-лист</p>
-            </div>
-            <div class="language flex-center">
+            </a>
+            <a href="#" class="language flex-center">
               <img src="icons/en.svg" alt="english">
-              <a href="#" class="language__name opacity">En</a>
-            </div>
+              <span  class="language__name  opacity">En</span>
+            </a>
           </div>
         </div>
       </div>
@@ -143,55 +145,35 @@
             </div>
           </div>
 
-          <table class="categories" id="materials">
-            <thead>
-              <tr class="tr-phone">
-                <td class="cat materials paper" rowspan="2"><p class="cat__text">Бумага</p></td>
-                <td class="cat materials envelopes"><p class="cat__text">Конверты</p></td>
-                <td class="cat materials cardboards"><p class="cat__text">Картоны</p></td>
-                <td class="cat materials sticker"><p class="cat__text">Самоклеящиеся материалы</p></td>
-              </tr>
-              <tr class="tr-phone">
-                <td class="cat materials cover"><p class="cat__text">Переплетные материалы</p></td>
-                <td class="cat materials films"><p class="cat__text">Пленки</p></td>
-                <td class="cat materials paints"><p class="cat__text">Краски</p></td>
-              </tr>
-              <tr class="tr-phone">
-                <td class="cat materials foil"><p class="cat__text">Фольга</p></td>
-                <td class="cat materials lacquer"><p class="cat__text">Лаки</p></td>
-                <td class="cat materials glue"><p class="cat__text">Клеи</p></td>
-                <td class="cat materials mat-cards"><p class="cat__text">Материалы<br>для пластиковых карт</p></td>
-              </tr>
-            </thead>
-          </table>
+          <ul class="categories" id="materials">
+            <li class="cat materials paper"><p class="cat__text">Бумага</p></li>
+            <li class="cat materials envelopes"><p class="cat__text">Конверты</p></li>
+            <li class="cat materials cardboards"><p class="cat__text">Картоны</p></li>
+            <li class="cat materials sticker"><p class="cat__text">Самоклеящиеся материалы</p></li>
+            <li class="cat materials cover"><p class="cat__text">Переплетные материалы</p></li>
+            <li class="cat materials films"><p class="cat__text">Пленки</p></li>
+            <li class="cat materials paints"><p class="cat__text">Краски</p></li>
+            <li class="cat materials foil"><p class="cat__text">Фольга</p></li>
+            <li class="cat materials lacquer"><p class="cat__text">Лаки</p></li>
+            <li class="cat materials glue"><p class="cat__text">Клеи</p></li>
+            <li class="cat materials mat-cards"><p class="cat__text">Материалы<br>для пластиковых карт</p></li>
+          </ul>
 
-          <table class="categories" id="final_product">
-            <thead>
-              <tr class="tr-phone">
-                <td class="cat product book" rowspan="2"><p class="cat__text">Книгоиздание</p></td>
-                <td class="cat product adv"><p class="cat__text">Реклама</p></td>
-                <td class="cat product label"><p class="cat__text">Этикетка</p></td>
-              </tr>
-              <tr class="tr-phone">
-                <td class="cat product pack"><p class="cat__text">Упаковка</p></td>
-                <td class="cat product cards"><p class="cat__text">Пластиковые карты</p></td>
-              </tr>
-            </thead>
-          </table>
+          <ul class="categories" id="final_product">
+            <li class="cat product book"><p class="cat__text">Книгоиздание</p></li>
+            <li class="cat product adv"><p class="cat__text">Реклама</p></li>
+            <li class="cat product label"><p class="cat__text">Этикетка</p></li>
+            <li class="cat product pack"><p class="cat__text">Упаковка</p></li>
+            <li class="cat product cards"><p class="cat__text">Пластиковые карты</p></li>
+          </ul>
 
-          <table class="categories" id="technology">
-            <thead>
-              <tr class="tr-phone">
-                <td class="cat technology digital-print" rowspan="2"><p class="cat__text">Цифровая печать</p></td>
-                <td class="cat technology offset"><p class="cat__text">Офсетная печать</p></td>
-                <td class="cat technology narrow-print"><p class="cat__text">Узкорулонная печать</p></td>
-              </tr>
-              <tr class="tr-phone">
-                <td class="cat technology emboss"><p class="cat__text">Тиснение</p></td>
-                <td class="cat technology prod-cards"><p class="cat__text">Производство пластиковых карт</p></td>
-              </tr>
-            </thead>
-          </table>
+          <ul class="categories" id="technology">
+            <li class="cat technology digital-print"><p class="cat__text">Цифровая печать</p></li>
+            <li class="cat technology offset"><p class="cat__text">Офсетная печать</p></li>
+            <li class="cat technology narrow-print"><p class="cat__text">Узкорулонная печать</p></li>
+            <li class="cat technology emboss"><p class="cat__text">Тиснение</p></li>
+            <li class="cat technology prod-cards"><p class="cat__text">Производство пластиковых карт</p></li>
+          </ul>
         </div>
       </section>
 

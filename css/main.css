@@ -19,6 +19,17 @@
   font-weight: normal;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
 body {
   font-size: 13px;
   line-height: 1.42;
@@ -240,7 +251,7 @@ a {
 /* ------------------------------ */
 
 .price_and_search {
-  width: 195px;
+  width: 215px;
 }
 
 .search{
@@ -282,10 +293,14 @@ a {
 }
 
 .btn-price{
-  background: url(../icons/price.svg) no-repeat 10% 50% ;
+  background-image: url(../icons/price.svg);
+  background-repeat: no-repeat;
+  background-position: 10% 50% ;
 }
 .btn-price:hover{
-  background: url(../icons/price_white.svg) no-repeat 10% 50% ;
+  background: url(../icons/price_white.svg);
+  background-repeat: no-repeat;
+  background-position: 10% 50% ;
   color: #fff;
   background-color: #00815d;
 }
@@ -459,28 +474,28 @@ a {
 /* -------------- */
 
 .categories{
-  border-collapse: collapse;
-  padding-bottom: 102px;
+  max-width: 1182px;
 }
 
 .cat{
   background-color: rgba(255, 255, 255, 0.7);
-  border: 2px solid #c6c5c3;
+  border: 1px solid #c6c5c3;
   font-size: 25px;
   font-family: "freesetlightc";
   text-transform: uppercase;
   vertical-align: top;
   cursor: pointer;
   transition: background-color 0.6s;
+  float: left;
 }
 
 .materials{
-  width: 295px;
+  width: 25%;
   height: 168px;
 }
 
 .product, .technology{
-  width: 391px;
+  width: 33.33%;
   height: 265px;
 }
 
@@ -492,7 +507,15 @@ a {
 .cat:hover{
   color: #fff;
   border: none;
-  box-shadow: 0px 0px 92px -18px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 40px 15px rgba(0,0,0,0.2);
+}
+
+.paper {
+  height: 336px;
+}
+
+.book, .digital-print {
+  height: 530px;
 }
 
 .paper:hover{

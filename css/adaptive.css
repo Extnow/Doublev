@@ -20,14 +20,16 @@
   }
   .btn_price__text-top {
     font-size: 10px;
-    padding-left: 0;
+    padding-left: 20px;
   }
   .btn-price {
-    background: none;
+    width: 125px;
   }
   .btn-price:hover {
-    background: none;
     background-color: #00815d;
+  }
+  .cat {
+    font-size: 20px;
   }
 }
 
@@ -47,6 +49,13 @@
   .nav__footer {
     width: auto;
     font-size: 12px;
+  }
+  .cat__text {
+    padding: 20px 0 0 15px;
+    margin: 0;
+  }
+  .cat {
+    font-size: 18px;
   }
 }
 
@@ -103,6 +112,11 @@
     width: 75px;
     justify-content: space-between;
     cursor: pointer;
+  }
+
+  .search-tablet {
+    border: none;
+    background-color: #00815d;
   }
   
   .tablet-price{
@@ -245,14 +259,42 @@
   }
 
   .materials, .product, .technology {
-    width: 235px;
+    width: 33.33%;
     height: 100px;
+  }
+
+  .categories {
+    min-height: 410px;
   }
 
   .cat__text {
     font-size: 20px;
     font-family: "freesetlightc";
-    padding: 20px 0 0 19px;
+    padding: 10px 0 0 10px;
+  }
+
+  .paper {
+    height: 200px;
+    background-image: url(../backgrounds/marerial-paper-720.svg);
+    background-position: 100% 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+
+  .book {
+    height: 200px;
+    background-image: url(../backgrounds/material-cover-720.svg);
+    background-position: 100% 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+
+  .digital-print {
+    height: 200px;
+    background-image: url(../backgrounds/material-paints-720.svg);
+    background-position: 100% 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
   }
 
   .paper:hover, .films:hover, .lacquer:hover, .book:hover, .digital-print:hover {
@@ -402,6 +444,13 @@
   }
 }
 
+@media (max-width:450px){
+  .cat__text {
+    font-size: 12px;
+    padding: 5px 0 0 5px;
+  }
+}
+
 @media (max-width:355px){
   .sale__desc-text{
     display: none;
@@ -411,6 +460,9 @@
   }
   .sale__desc {
     padding: 0 20px;
+  }
+  .header__description {
+    font-size: 11px;
   }
 }
 
@@ -423,12 +475,6 @@
   .container-banner{
     max-width: 280px;
     margin: 0 auto;
-  }
-
-  .tr-phone{
-    display: flex;
-    justify-content: center;
-    flex-flow: wrap;
   }
 
   .product__title{
@@ -485,8 +531,8 @@
     width: 100%;
   }
 
-  .categories{
-    border-collapse: collapse;
+  .categories {
+    height: auto;
   }
   
   .cat{
@@ -510,6 +556,10 @@
     width: 100%;
     height: auto;
     padding: 27px 20px 27px 0;
+  }
+
+  .paper {
+    background-image: none;
   }
 
   .paper, .films, .lacquer, .book, .digital-print{
