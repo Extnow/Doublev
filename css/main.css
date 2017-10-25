@@ -64,6 +64,12 @@ a {
   border: 0;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .container {
   max-width: 1180px;
   margin: 0 auto;
@@ -643,7 +649,7 @@ a {
 
 .flag{
   padding-top: 20px;
-  height: 25px;
+  height: 46px;
   overflow: hidden;
   position: absolute;
 }
