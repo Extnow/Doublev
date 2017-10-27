@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>Doublev</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="slick/slick.css"/>
+  <link rel="stylesheet" href="slick/slick-theme.css"/>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/adaptive.css">
@@ -64,15 +66,15 @@
             </a>
             <nav>
               <ul class="nav flex-start">
-                <li><a class="nav__item nav__item-catalog" href="#">
+                <li class="nav__item"><a class="nav__item__link nav__item-catalog" href="#">
                   Каталог
                   <img class="arrow" src="img/arrow.png" alt="catalog">
                 </a></li>
-                <li><a class="nav__item" href="#">О компании</a></li>
-                <li><a class="nav__item" href="#">Полезная информация</a></li>
-                <li><a class="nav__item" href="#">Центр розничных продаж</a></li>
-                <li><a class="nav__item" href="#">Арт-площадка</a></li>
-                <li><a class="nav__item" href="#">Контакты</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="#">О компании</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="#">Полезная информация</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="#">Центр розничных продаж</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="#">Арт-площадка</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="#">Контакты</a></li>
               </ul>
             </nav>
             <div class="price_and_search flex-center">
@@ -87,46 +89,60 @@
     </header>
 
     <main class="content">
-      <div class="banner">
-        <div class="container-banner">
-          <div class="banner__title">
-            <div class="banner__title__h1">Cocktail</div>
-            <div class="banner__title__new">New</div>
+      <div class="banner-slider">
+        <div class="banner">
+          <div class="container-banner">
+            <div class="banner__all">
+              <div class="banner__title">
+                <div class="banner__title__h1">Cocktail</div>
+                <div class="banner__title__new">New</div>
+              </div>
+              <div class="banner__desc__first">
+                чистоцеллюлозная бумага с двусторонним  металлизированным покрытием
+              </div>
+              <ul class="banner_sizes flex-start">
+                <li class="size">120 г/м<sup>2</sup></li>
+                <li class="size">290 г/м<sup>2</sup></li>
+              </ul>
+              <div class="banner__desc__second">
+              Идеально подходит для изготовления  упаковки, печати корпоративных изданий,
+              обложек, брошюр
+              </div>
+              <div class="banner__logo">
+                <img class="banner__img" src="img/banner_logo.png" alt="banner">
+              </div>
+            </div>
           </div>
-          <div class="banner__desc__first">
-            чистоцеллюлозная бумага с двусторонним  металлизированным покрытием
-          </div>
-          <ul class="banner_sizes flex-start">
-            <li class="size">120 г/м<sup>2</sup></li>
-            <li class="size">290 г/м<sup>2</sup></li>
-          </ul>
-          <div class="banner__desc__second">
-          Идеально подходит для изготовления  упаковки, печати корпоративных изданий,
-          обложек, брошюр
-          </div>
-          <div class="banner__logo">
-            <img class="banner__img" src="img/banner_logo.png" alt="banner">
-          </div>
-          <div class="dots">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot dot__active"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
+        </div>
+
+        <div class="banner">
+          <div class="container-banner">
+            <div class="banner__all">
+              <div class="banner__title">
+                <div class="banner__title__h1">Cocktail</div>
+                <div class="banner__title__new">New</div>
+              </div>
+              <div class="banner__desc__first">
+                чистоцеллюлозная бумага с двусторонним  металлизированным покрытием
+              </div>
+              <ul class="banner_sizes flex-start">
+                <li class="size">120 г/м<sup>2</sup></li>
+                <li class="size">290 г/м<sup>2</sup></li>
+              </ul>
+              <div class="banner__desc__second">
+              Идеально подходит для изготовления  упаковки, печати корпоративных изданий,
+              обложек, брошюр
+              </div>
+              <div class="banner__logo">
+                <img class="banner__img" src="img/banner_logo.png" alt="banner">
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <section class="section__products">
         <div class="container">
-
-          <div class="dots-tablet">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot dot__active"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
 
           <h2 class="product__title">Каталог</h2>
           <div class="tabs">
@@ -276,10 +292,10 @@
               </a>
             </div>
             <ul class="nav__footer flex-center">
-              <li><a class="nav__item" href="#">Каталог</a></li>
-              <li><a class="nav__item" href="#">О компании</a></li>
-              <li><a class="nav__item" href="#">Полезная информация</a></li>
-              <li><a class="nav__item" href="#">Контакты</a></li>
+              <li class="nav__item"><a class="nav__item__link" href="#">Каталог</a></li>
+              <li class="nav__item"><a class="nav__item__link" href="#">О компании</a></li>
+              <li class="nav__item"><a class="nav__item__link" href="#">Полезная информация</a></li>
+              <li class="nav__item"><a class="nav__item__link" href="#">Контакты</a></li>
             </ul>
             <button class="btn btn-feedback">
               <span class="btn_price__text">Обратная связь</span>
@@ -337,6 +353,7 @@
   </div>
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="slick/slick.min.js"></script>
   <script src="main.js"></script>
 </body>
 </html>

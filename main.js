@@ -1,5 +1,10 @@
 jQuery(document).ready(function(){
 
+  $('.banner-slider').slick({
+    dots: true,
+    arrows: false
+  });
+
   function showProduct (tab, cat1, cat2, cat3, img, background) {
     $(tab).click(function(){
       $(cat1).show("500");

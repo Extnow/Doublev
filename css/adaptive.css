@@ -187,9 +187,7 @@
     margin-bottom: 20px;
   }
 
-  .dots{
-    display: none;
-  }
+  
 
   .dot{
     cursor: pointer;

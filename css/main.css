@@ -81,7 +81,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .container-banner {
-  max-width: 1180px;
+  width: 1180px;
   margin: 0 auto;
   padding: 0 5px;
 }
@@ -225,12 +225,15 @@ h1,h2,h3,h4,h5,h6 {
 
 .nav__item{
   padding-left: 15px;
+}
+
+.nav__item__link {
   color: #000;
   text-transform: uppercase;
   transition: all 0.1s; 
 }
 
-.nav__item:hover{
+.nav__item__link:hover{
   color: #00815d;
 }
 
@@ -319,6 +322,9 @@ h1,h2,h3,h4,h5,h6 {
 
 
 /*-------------- BANNER ------------------*/
+.banner-slider {
+  position: relative;
+}
 
 .banner{
   background-color: #eae4e7;
