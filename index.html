@@ -23,7 +23,7 @@
             <div class="header_socail flex-center">
               <ul class="social-icons flex-center">
                 <li class="social-item flex-center"><a class="social-icon fb" href="#" aria-label="facebook"></a></li>
-                <li class="social-item flex-center"><a class="social-icon in" href="#" aria-label="linkedin"></a></li>
+                <li class="social-item flex-center"><a class="social-icon linkedin" href="#" aria-label="linkedin"></a></li>
                 <li class="social-item flex-center"><a class="social-icon vk" href="#" aria-label="vkontakte"></a></li>
               </ul>
               <a href="#" class="language flex-center">
@@ -39,7 +39,7 @@
               <p class="header__description opacity">Меню</p>
             </a>
             <a href="#">
-              <img class="tablet-logo" src="img/logo-tablet.png" alt="logo" class="logo__pic">
+              <img class="tablet-logo logo__pic" src="img/logo-tablet.png" alt="logo">
             </a>
             <button class="search-tablet" aria-label="Поиск">
               <img class="tablet-search" src="icons/magnifyer_white.svg" alt="search">
@@ -62,16 +62,18 @@
             <a href="#" class="logo">
               <img src="img/logo.png" alt="logo" class="logo__pic">
             </a>
-            <nav class="nav flex-center">
-              <a class="nav__item nav__item-catalog" id="catalog" href="#">
-                Каталог
-                <img class="arrow" src="img/arrow.png" alt="catalog">
-              </a>
-              <a class="nav__item" href="#">О компании</a>
-              <a class="nav__item" href="#">Полезная информация</a>
-              <a class="nav__item" href="#">Центр розничных продаж</a>
-              <a class="nav__item" href="#">Арт-площадка</a>
-              <a class="nav__item" href="#">Контакты</a>
+            <nav>
+              <ul class="nav flex-start">
+                <li><a class="nav__item nav__item-catalog" href="#">
+                  Каталог
+                  <img class="arrow" src="img/arrow.png" alt="catalog">
+                </a></li>
+                <li><a class="nav__item" href="#">О компании</a></li>
+                <li><a class="nav__item" href="#">Полезная информация</a></li>
+                <li><a class="nav__item" href="#">Центр розничных продаж</a></li>
+                <li><a class="nav__item" href="#">Арт-площадка</a></li>
+                <li><a class="nav__item" href="#">Контакты</a></li>
+              </ul>
             </nav>
             <div class="price_and_search flex-center">
               <button class="search" aria-label="Поиск"></button>
@@ -181,7 +183,7 @@
         <div class="container">
           <h2 class="product__title">Новинки и акции</h2>
           <div class="news_and_sales flex-center">
-            <div class="news_and_sales__block sale__desc-sale">
+            <article class="news_and_sales__block sale__desc-sale">
               <div class="flag flag-sale">
                 <div class="f-left f-sale"></div>
                 <span class="font">акция</span>
@@ -189,11 +191,12 @@
               </div> 
               <img class="sale-img" src="img/sale1.png" alt="Мелованная бумага HI-KOTE от APP">
               <div class="sale__desc">
-                <div class="sale__desc-title">Мелованная бумага HI-KOTE от APP</div>
+                <h3 class="sale__desc-title">Мелованная бумага HI-KOTE от APP</h3>
                 <div class="sale__desc-text">тонированная в массе бумага фантастически глубокого черного цвета B100</div>
               </div>
-            </div>
-            <div class="news_and_sales__block sale__desc-sale">
+            </article>
+
+            <article class="news_and_sales__block sale__desc-sale">
               <div class="flag flag-sale">
                 <div class="f-left f-sale"></div>
                 <span class="font">акция</span>
@@ -201,11 +204,12 @@
               </div> 
               <img class="sale-img" src="img/sale2.png" alt="Коллекции флокированных материалов">
               <div class="sale__desc">
-                <div class="sale__desc-title">Четыре новых цвета в коллекции флокированных материалов<br>SEF Dainel SG</div>
+                <h3 class="sale__desc-title">Четыре новых цвета в коллекции флокированных материалов<br>SEF Dainel SG</h3>
                 <div class="sale__desc-text">тонированная в массе бумага фантастически глубокого черного цвета B100</div>
               </div>
-            </div>
-            <div class="news_and_sales__block sale__desc-new">
+            </article>
+
+            <article class="news_and_sales__block sale__desc-new">
               <div class="flag flag-new">
                 <div class="f-left f-new"></div>
                 <span class="font">новинка</span>
@@ -213,11 +217,12 @@
               </div> 
               <img class="sale-img" src="img/sale3.png" alt="Новый продукт от компании Mondi YBBS">
               <div class="sale__desc">
-                <div  class="sale__desc-title">Новый продукт от компании Mondi YBBS&#174; premium colored board Black!</div >
+                <h3 class="sale__desc-title">Новый продукт от компании Mondi YBBS&#174; premium colored board Black!</h3>
                 <div class="sale__desc-text">тонированная в массе бумага фантастически глубокого черного цвета B100</div>
               </div>
-            </div>
-            <div class="news_and_sales__block sale__desc-new">
+            </article>
+
+            <article class="news_and_sales__block sale__desc-new">
               <div class="flag flag-new">
                 <div class="f-left f-new"></div>
                 <span class="font">новинка</span>
@@ -225,11 +230,12 @@
               </div> 
               <img class="sale-img" src="img/sale4.png" alt="Уникальная коллекция белых бумаг">
               <div class="sale__desc">
-                <div  class="sale__desc-title">Уникальная коллекция белых бумаг<br>от Mondi PERGRAPHICA уже на складе</div >
+                <h3 class="sale__desc-title">Уникальная коллекция белых бумаг<br>от Mondi PERGRAPHICA уже на складе</h3>
                 <div class="sale__desc-text">тонированная в массе бумага фантастически глубокого черного цвета B100</div>
               </div>
-            </div>
-            <div class="news_and_sales__block sale__desc-new">
+            </article>
+
+            <article class="news_and_sales__block sale__desc-new">
               <div class="flag flag-new">
                 <div class="f-left f-new"></div>
                 <span class="font">новинка</span>
@@ -237,11 +243,12 @@
               </div> 
               <img class="sale-img" src="img/sale5.png" alt="Дизайнерская бумага COLORPLAN">
               <div class="sale__desc">
-                <div class="sale__desc-title">Дизайнерская бумага COLORPLAN<br>с покрытием для печати на HP Indigo</div>
+                <h3 class="sale__desc-title">Дизайнерская бумага COLORPLAN<br>с покрытием для печати на HP Indigo</h3>
                 <div class="sale__desc-text">тонированная в массе бумага фантастически глубокого черного цвета B100</div>
               </div>
-            </div>
-            <div class="news_and_sales__block sale__desc-sale">
+            </article>
+
+            <article class="news_and_sales__block sale__desc-sale">
               <div class="flag flag-sale">
                 <div class="f-left f-sale"></div>
                 <span class="font">акция</span>
@@ -249,12 +256,12 @@
               </div> 
               <img class="sale-img" src="img/sale6.png" alt="Мелованная бумага HI-KOTE от APP">
               <div class="sale__desc">
-                <div class="sale__desc-title">Мелованная бумага HI-KOTE от APP</div>
+                <h3 class="sale__desc-title">Мелованная бумага HI-KOTE от APP</h3>
                 <div class="sale__desc-text">тонированная в массе бумага фантастически глубокого черного цвета B100</div>
               </div>
-            </div>
+            </article>
           </div>
-          <button class="btn__all_sales"><span class="btn__text">Все новинки и акции</span></button>
+          <button class="btn__all_sales">Все новинки и акции</button>
         </div>
       </section> 
     </main>
@@ -268,12 +275,12 @@
                 <img src="img/logo.png" alt="logo" class="logo__pic">
               </a>
             </div>
-            <nav class="nav__footer flex-center">
-              <a class="nav__item" href="#">Каталог</a>
-              <a class="nav__item" href="#">О компании</a>
-              <a class="nav__item" href="#">Полезная информация</a>
-              <a class="nav__item" href="#">Контакты</a>
-            </nav>
+            <ul class="nav__footer flex-center">
+              <li><a class="nav__item" href="#">Каталог</a></li>
+              <li><a class="nav__item" href="#">О компании</a></li>
+              <li><a class="nav__item" href="#">Полезная информация</a></li>
+              <li><a class="nav__item" href="#">Контакты</a></li>
+            </ul>
             <button class="btn btn-feedback">
               <span class="btn_price__text">Обратная связь</span>
             </button>
@@ -290,7 +297,7 @@
             </div>
             <ul class="social-icons soc-icon-footer-tablet flex-center">
               <li class="social-item flex-center"><a class="social-icon fb" href="#" aria-label="facebook"></a></li>
-              <li class="social-item flex-center"><a class="social-icon in" href="#" aria-label="linkedin"></a></li>
+              <li class="social-item flex-center"><a class="social-icon linkedin" href="#" aria-label="linkedin"></a></li>
               <li class="social-item flex-center"><a class="social-icon vk" href="#" aria-label="vkontakte"></a></li>
             </ul>
             <button class="btn btn-feedback-tablet">
@@ -314,7 +321,7 @@
             </div>
             <ul class="social-icons flex-center">
               <li class="social-item flex-center"><a class="social-icon fb" href="#" aria-label="facebook"></a></li>
-              <li class="social-item flex-center"><a class="social-icon in" href="#" aria-label="linkedin"></a></li>
+              <li class="social-item flex-center"><a class="social-icon linkedin" href="#" aria-label="linkedin"></a></li>
               <li class="social-item flex-center"><a class="social-icon vk" href="#" aria-label="vkontakte"></a></li>
             </ul>
           </div>
