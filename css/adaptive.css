@@ -28,6 +28,12 @@
   }
 }
 
+@media (max-width:1025px){
+  .banner {
+    background-position: 38% 50%;
+  }
+}
+
 @media (max-width:895px){
   .footer__desc {
     font-size: 12px;
