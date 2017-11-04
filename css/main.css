@@ -153,10 +153,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .social-icon {
-  border-radius: 13px;
   width: 26px;
   height: 26px;
-  min-height: 26px;
+  border-radius: 13px;
   transition: 0.8s; 
 }
 
@@ -312,8 +311,9 @@ h1,h2,h3,h4,h5,h6 {
   background-repeat: no-repeat;
   background-position: 10% 50% ;
 }
+
 .btn-price:hover{
-  background: url(../icons/price_white.svg);
+  background-image: url(../icons/price_white.svg);
   background-repeat: no-repeat;
   background-position: 10% 50% ;
   color: #fff;
@@ -353,7 +353,6 @@ h1,h2,h3,h4,h5,h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-
   background-color: #ee1a26;
   width: 73px;
   height: 73px;
@@ -764,11 +763,15 @@ h1,h2,h3,h4,h5,h6 {
 .btn-feedback{
   background-color: #edf1f1;
   border-color: #9ac7ba;
-  background: url(../icons/contact.svg) no-repeat 10% 50% ;
+  background-image: url(../icons/contact.svg);
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
 }
 
 .btn-feedback:hover{
-  background: url(../icons/contact_white.svg) no-repeat 10% 50% ;
+  background-image: url(../icons/contact_white.svg);
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
   color: #fff;
   background-color: #00815d;
 }

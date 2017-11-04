@@ -185,6 +185,10 @@
     color: black;
 }
 
+.slick-active {
+   background-color: #fff; 
+}
+
 
 @media (max-width:768px) {
     .slick-dots {
