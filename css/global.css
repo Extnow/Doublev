@@ -44,6 +44,16 @@ a {
   text-decoration: none;
   color: #fff; }
 
+h2 {
+  font-size: 75px;
+  font-family: "a_empirial";
+  font-weight: normal; }
+
+h3 {
+  font-size: 18px;
+  font-family: "FreeSetDemiC", "Arial", sans-serif;
+  font-weight: normal; }
+
 /* ------------------- ╨Ъ╨╗╨░╤Б╤Б╤Л ╨┐╨╛╨╝╨╛╤Й╨╜╨╕╨║╨╕ ----------------- */
 .visuallyHidden {
   position: absolute;

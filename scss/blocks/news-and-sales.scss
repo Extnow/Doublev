@@ -3,18 +3,6 @@
   @include flex-center;
 }
 
-.news-and-sales__title {
-  margin: 0;
-  padding-top: 100px;
-  padding-bottom: 60px;
-  font-size: 75px;
-  font-family: "a_empirial";
-  font-weight: normal;
-  color: #4d4f51;
-  text-align: center;
-  line-height: 1;
-}
-
 .news-and-sales__block {
   width: 380px;
   height: 420px;
@@ -54,7 +42,6 @@
 .news-and-sales__description-title{
   margin: 0;
   padding-top: 15px;
-  font-size: 18px;
 }
 
 .news-and-sales__description-text{
@@ -191,10 +178,5 @@
 
   .news-and-sales__block:nth-child(3) {
     display: none;
-  }
-
-  .news-and-sales__title {
-    font-size: 50pt;
-    padding: 40px 0;
   }
 }

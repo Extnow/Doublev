@@ -1,232 +1,72 @@
-.categories {
-  max-width: 1182px; }
-  .categories::after, .categories::before {
-    content: "";
-    display: table; }
-  .categories::after {
-    clear: both; }
+/*
+Error: Undefined mixin 'clearfix'.
+        on line 3 of scss/blocks/categories.scss, in `clearfix'
+        from line 3 of scss/blocks/categories.scss
 
-.categories--final_product, .categories--technology {
-  display: none; }
+1: .categories {
+2:   max-width: 1182px;
+3:   @include clearfix;
+4: }
+5: 
+6: .categories--final_product, .categories--technology{
+7:   display: none;
+8: }
 
-.categories__cat {
-  background-color: rgba(255, 255, 255, 0.7);
-  border: 1px solid #c6c5c3;
-  font-size: 25px;
-  font-family: "freesetlightc", "Arial", sans-serif;
-  text-transform: uppercase;
-  vertical-align: top;
-  cursor: pointer;
-  transition: background-color 0.6s;
-  float: left; }
-  .categories__cat:hover {
-    color: #fff;
-    border: none;
-    box-shadow: 0px 0px 40px 15px rgba(0, 0, 0, 0.2); }
-
-.categories__materials {
-  width: 25%;
-  height: 168px; }
-  .categories__materials--paper {
-    height: 336px; }
-  .categories__materials--paper:hover {
-    background: url(../backgrounds/material-paper.svg) no-repeat bottom, #0091c4; }
-  .categories__materials--envelopes:hover {
-    background: url(../backgrounds/material-envelopes.svg) no-repeat right bottom, #e03c7c; }
-  .categories__materials--cardboards:hover {
-    background: url(../backgrounds/material-cardboards.svg) no-repeat right bottom, #fcad4b; }
-  .categories__materials--sticker:hover {
-    background: url(../backgrounds/material-sticker.svg) no-repeat right bottom, #9d080d; }
-  .categories__materials--cover:hover {
-    background: url(../backgrounds/material-cover.svg) no-repeat right bottom, #e03c7c; }
-  .categories__materials--films:hover {
-    background: url(../backgrounds/material-films.svg) no-repeat right bottom, #0091c4; }
-  .categories__materials--foil:hover {
-    background: url(../backgrounds/material-foil.svg) no-repeat right bottom, #00815d; }
-  .categories__materials--glue:hover {
-    background: url(../backgrounds/material-glue.svg) no-repeat right bottom, #00815d; }
-  .categories__materials--lacquer:hover {
-    background: url(../backgrounds/material-lacquer.svg) no-repeat right bottom, #0091c4; }
-  .categories__materials--paints:hover {
-    background: url(../backgrounds/material-paints.svg) no-repeat right bottom, #fcad4b; }
-  .categories__materials--mat-cards:hover {
-    background: url(../backgrounds/material-cards.svg) no-repeat right bottom, #9d080d; }
-
-.categories__product {
-  width: 33.33%;
-  height: 265px; }
-  .categories__product--book {
-    height: 530px; }
-  .categories__product--book:hover {
-    background: url(../backgrounds/final-book.svg) no-repeat right bottom, #0091c4; }
-  .categories__product--adv:hover {
-    background: url(../backgrounds/final-adv.svg) no-repeat right bottom, #e03c7c; }
-  .categories__product--label:hover {
-    background: url(../backgrounds/final-label.svg) no-repeat right bottom, #00815d; }
-  .categories__product--pack:hover {
-    background: url(../backgrounds/final-pack.svg) no-repeat right bottom, #9d080d; }
-  .categories__product--cards:hover {
-    background: url(../backgrounds/tech-cards.svg) no-repeat right bottom, #fcad4b; }
-
-.categories__technology {
-  width: 33.33%;
-  height: 265px; }
-  .categories__technology--digital-print {
-    height: 530px; }
-  .categories__technology--prod-cards:hover {
-    background: url(../backgrounds/tech-cards.svg) no-repeat right bottom, #fcad4b; }
-  .categories__technology--digital-print:hover {
-    background: url(../backgrounds/tech-digital-print.svg) no-repeat right bottom, #0091c4; }
-  .categories__technology--emboss:hover {
-    background: url(../backgrounds/tech-emboss.svg) no-repeat right bottom, #9d080d; }
-  .categories__technology--offset:hover {
-    background: url(../backgrounds/tech-offset.svg) no-repeat right bottom, #e03c7c; }
-  .categories__technology--narrow-print:hover {
-    background: url(../backgrounds/tech-narrow-print.svg) no-repeat right bottom, #00815d; }
-
-.categories__text {
-  padding: 20px 0 0 25px;
-  margin: 0; }
-
-@media (max-width: 1082px) {
-  .categories__cat {
-    font-size: 20px; } }
-@media (max-width: 895px) {
-  .categories__text {
-    padding: 20px 0 0 15px; }
-
-  .categories__cat {
-    font-size: 18px; } }
-@media (max-width: 768px) {
-  .categories__materials {
-    width: 33.33%;
-    height: 100px; }
-    .categories__materials--paper {
-      height: 200px;
-      background-image: url(../backgrounds/marerial-paper-720.svg);
-      background-position: 100% 100%;
-      background-size: auto;
-      background-repeat: no-repeat; }
-    .categories__materials--paper:hover {
-      background: #0091c4; }
-    .categories__materials--envelopes:hover {
-      background: #e03c7c; }
-    .categories__materials--cardboards:hover {
-      background: #fcad4b; }
-    .categories__materials--sticker:hover {
-      background: #9d080d; }
-    .categories__materials--cover:hover {
-      background: #e03c7c; }
-    .categories__materials--films:hover {
-      background: #0091c4; }
-    .categories__materials--foil:hover {
-      background: #00815d; }
-    .categories__materials--glue:hover {
-      background: #00815d; }
-    .categories__materials--lacquer:hover {
-      background: #0091c4; }
-    .categories__materials--paints:hover {
-      background: #fcad4b; }
-    .categories__materials--mat-cards:hover {
-      background: #9d080d; }
-
-  .categories__product {
-    width: 33.33%;
-    height: 100px; }
-    .categories__product--book {
-      height: 200px;
-      background-image: url(../backgrounds/material-cover-720.svg);
-      background-position: 100% 100%;
-      background-size: auto;
-      background-repeat: no-repeat; }
-    .categories__product--book:hover {
-      background: #0091c4; }
-    .categories__product--adv:hover {
-      background: #e03c7c; }
-    .categories__product--label:hover {
-      background: #00815d; }
-    .categories__product--pack:hover {
-      background: #9d080d; }
-    .categories__product--cards:hover {
-      background: #fcad4b; }
-
-  .categories__technology {
-    width: 33.33%;
-    height: 100px; }
-    .categories__technology--digital-print {
-      height: 200px;
-      background-image: url(../backgrounds/material-paints-720.svg);
-      background-position: 100% 100%;
-      background-size: auto;
-      background-repeat: no-repeat; }
-    .categories__technology--prod-cards:hover {
-      background: #fcad4b; }
-    .categories__technology--digital-print:hover {
-      background: #0091c4; }
-    .categories__technology--emboss:hover {
-      background: #9d080d; }
-    .categories__technology--offset:hover {
-      background: #e03c7c; }
-    .categories__technology--narrow-print:hover {
-      background: #00815d; }
-
-  .categories__text {
-    padding: 10px 0 0 10px; } }
-@media (max-width: 697px) {
-  .categories__text {
-    font-size: 14px; } }
-@media (max-width: 450px) {
-  .categories__text {
-    font-size: 12px;
-    padding: 5px 0 0 5px; } }
-@media (max-width: 370px) {
-  .categories__text {
-    font-size: 10px;
-    padding: 5px 0 0 5px; } }
-@media (max-width: 320px) {
-  .categories {
-    height: auto; }
-
-  .categories__cat {
-    border: 1px solid #c6c5c3;
-    border-bottom: none;
-    display: flex;
-    align-items: center; }
-    .categories__cat:last-child {
-      border-bottom: 1px solid #c6c5c3; }
-
-  .categories__text {
-    font-size: 20px;
-    padding: 0 0 0 20px; }
-
-  .categories__materials, .categories__product, .categories__technology {
-    max-width: 278px;
-    width: 100%;
-    height: auto;
-    padding: 27px 20px 27px 0; }
-
-  .categories__materials--paper,
-  .categories__product--book,
-  .digital-print {
-    background-image: none; }
-
-  .categories__materials--paper,
-  .categories__materials--films,
-  .categories__materials--lacquer,
-  .categories__product--book,
-  .digital-print {
-    border-left: 3px solid #0091c4; }
-
-  .categories__materials--envelopes, .categories__materials--cover, .adv, .offset {
-    border-left: 3px solid #e03c7c; }
-
-  .categories__materials--cardboards, .categories__materials--paints, .categories__materials--mat-cards, .prod-cards {
-    border-left: 3px solid #fcad4b; }
-
-  .categories__materials--sticker, .mat-cards, .pack, .emboss {
-    border-left: 3px solid #9d080d; }
-
-  .categories__materials--foil, .categories__materials--glue, .label, .narrow-print {
-    border-left: 3px solid #00815d; } }
-
-/*# sourceMappingURL=categories.css.map */
+Backtrace:
+scss/blocks/categories.scss:3:in `clearfix'
+scss/blocks/categories.scss:3
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/stack.rb:98:in `with_mixin'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:349:in `visit_mixin'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `map'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:159:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:294:in `watch'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/plugin.rb:109:in `method_missing'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/bin/sass:13:in `<top (required)>'
+C:/Ruby22-x64/bin/sass:23:in `load'
+C:/Ruby22-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'clearfix'.\A         on line 3 of scss/blocks/categories.scss, in `clearfix'\A         from line 3 of scss/blocks/categories.scss\A \A 1: .categories {\A 2:   max-width: 1182px;\A 3:   @include clearfix;\A 4: }\A 5: \A 6: .categories--final_product, .categories--technology{\A 7:   display: none;\A 8: }"; }

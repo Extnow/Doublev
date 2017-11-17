@@ -1,0 +1,15 @@
+.title-section {
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  color: #4d4f51;
+  text-align: center;
+  line-height: 1;
+}
+
+@media (max-width:320px) {
+  .title-section {
+    font-size: 65px;
+    padding: 40px 0;
+  }
+}

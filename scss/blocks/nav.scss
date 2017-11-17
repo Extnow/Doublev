@@ -1,5 +1,3 @@
-@import 'mixins';
-
 .nav{
   min-height: 50px;
   @include flex-start;

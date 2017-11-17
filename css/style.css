@@ -44,6 +44,16 @@ a {
   text-decoration: none;
   color: #fff; }
 
+h2 {
+  font-size: 75px;
+  font-family: "a_empirial";
+  font-weight: normal; }
+
+h3 {
+  font-size: 18px;
+  font-family: "FreeSetDemiC", "Arial", sans-serif;
+  font-weight: normal; }
+
 /* ------------------- ╨Ъ╨╗╨░╤Б╤Б╤Л ╨┐╨╛╨╝╨╛╤Й╨╜╨╕╨║╨╕ ----------------- */
 .visuallyHidden {
   position: absolute;
@@ -531,17 +541,6 @@ a {
   height: 946px;
   background: url(../img/pr1_bg.png) no-repeat 50%, #e0dede; }
 
-.products__title {
-  margin: 0;
-  padding-top: 100px;
-  padding-bottom: 60px;
-  font-size: 75px;
-  font-family: "a_empirial";
-  font-weight: normal;
-  color: #4d4f51;
-  text-align: center;
-  line-height: 1; }
-
 .products__tabs {
   display: flex;
   padding-bottom: 30px; }
@@ -577,10 +576,6 @@ a {
     padding-bottom: 50px;
     height: auto; }
 
-  .products__title {
-    padding-top: 50px;
-    padding-bottom: 50px; }
-
   .products__tabs {
     display: flex;
     justify-content: center; }
@@ -598,10 +593,6 @@ a {
 
   .products__tab--prod, .products__tab--tech {
     display: none; } }
-@media (max-width: 320px) {
-  .products__title {
-    font-size: 50pt;
-    padding: 40px 0; } }
 .categories {
   max-width: 1182px; }
   .categories::after, .categories::before {
@@ -838,17 +829,6 @@ a {
   align-items: center;
   justify-content: space-between; }
 
-.news-and-sales__title {
-  margin: 0;
-  padding-top: 100px;
-  padding-bottom: 60px;
-  font-size: 75px;
-  font-family: "a_empirial";
-  font-weight: normal;
-  color: #4d4f51;
-  text-align: center;
-  line-height: 1; }
-
 .news-and-sales__block {
   width: 380px;
   height: 420px;
@@ -876,8 +856,7 @@ a {
 
 .news-and-sales__description-title {
   margin: 0;
-  padding-top: 15px;
-  font-size: 18px; }
+  padding-top: 15px; }
 
 .news-and-sales__description-text {
   padding-top: 15px;
@@ -972,11 +951,7 @@ a {
     padding-bottom: 30px; }
 
   .news-and-sales__block:nth-child(3) {
-    display: none; }
-
-  .news-and-sales__title {
-    font-size: 50pt;
-    padding: 40px 0; } }
+    display: none; } }
 .footer-first {
   background-color: #edf1f1;
   min-height: 100px; }
@@ -1311,5 +1286,17 @@ a {
     width: 75px;
     justify-content: space-between;
     cursor: pointer; } }
+.title-section {
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  color: #4d4f51;
+  text-align: center;
+  line-height: 1; }
+
+@media (max-width: 320px) {
+  .title-section {
+    font-size: 65px;
+    padding: 40px 0; } }
 
 /*# sourceMappingURL=style.css.map */

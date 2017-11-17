@@ -3,18 +3,6 @@
   background: url(../img/pr1_bg.png) no-repeat 50%, #e0dede;
 }
 
-.products__title {
-  margin: 0;
-  padding-top: 100px;
-  padding-bottom: 60px;
-  font-size: 75px;
-  font-family: "a_empirial";
-  font-weight: normal;
-  color: #4d4f51;
-  text-align: center;
-  line-height: 1;
-}
-
 .products__tabs {
   display: flex;
   padding-bottom: 30px;
@@ -59,11 +47,6 @@
     height: auto;
   }
 
-  .products__title {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
   .products__tabs {
     display: flex;
     justify-content: center;
@@ -85,13 +68,4 @@
   .products__tab--prod, .products__tab--tech {
     display: none;
   }
-}
-
-
-@media (max-width:320px){
-  .products__title {
-    font-size: 50pt;
-    padding: 40px 0;
-  }
-
 }

@@ -8,9 +8,9 @@ Error: Undefined mixin 'flex-center'.
 3:   @include flex-center;
 4: }
 5: 
-6: .news-and-sales__title {
-7:   margin: 0;
-8:   padding-top: 100px;
+6: .news-and-sales__block {
+7:   width: 380px;
+8:   height: 420px;
 
 Backtrace:
 scss/blocks/news-and-sales.scss:3:in `flex-center'
@@ -68,4 +68,4 @@ C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'flex-center'.\A         on line 3 of scss/blocks/news-and-sales.scss, in `flex-center'\A         from line 3 of scss/blocks/news-and-sales.scss\A \A 1: .news-and-sales__content {\A 2:   flex-wrap: wrap;\A 3:   @include flex-center;\A 4: }\A 5: \A 6: .news-and-sales__title {\A 7:   margin: 0;\A 8:   padding-top: 100px;"; }
+  content: "Error: Undefined mixin 'flex-center'.\A         on line 3 of scss/blocks/news-and-sales.scss, in `flex-center'\A         from line 3 of scss/blocks/news-and-sales.scss\A \A 1: .news-and-sales__content {\A 2:   flex-wrap: wrap;\A 3:   @include flex-center;\A 4: }\A 5: \A 6: .news-and-sales__block {\A 7:   width: 380px;\A 8:   height: 420px;"; }
