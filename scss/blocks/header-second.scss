@@ -1,0 +1,12 @@
+@import 'mixins';
+
+.header-second__content{
+  min-height: 100px;
+  @include flex-center;
+}
+
+@media (max-width:768px) {
+  .header-second{
+    display: none;
+  }
+}

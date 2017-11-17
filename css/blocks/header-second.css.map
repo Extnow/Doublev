@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,uBAAuB;EACrB,UAAU,EAAE,KAAK;ECFjB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;;ADIhC,yBAAyB;EACvB,cAAc;IACZ,OAAO,EAAE,IAAI",
+"sources": ["../../scss/blocks/header-second.scss","../../scss/mixins.scss"],
+"names": [],
+"file": "header-second.css"
+}

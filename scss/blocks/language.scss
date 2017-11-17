@@ -1,0 +1,6 @@
+@import 'mixins';
+
+.language{
+  width: 46px;
+  @include flex-center;
+}

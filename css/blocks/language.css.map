@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,SAAS;EACP,KAAK,EAAE,IAAI;ECFX,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa",
+"sources": ["../../scss/blocks/language.scss","../../scss/mixins.scss"],
+"names": [],
+"file": "language.css"
+}

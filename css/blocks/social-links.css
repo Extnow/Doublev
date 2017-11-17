@@ -1,0 +1,15 @@
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.social-links--footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+@media (max-width: 570px) {
+  .social-links--footer {
+    order: 1; } }
+
+/*# sourceMappingURL=social-links.css.map */

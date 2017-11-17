@@ -1,0 +1,30 @@
+.phone-number {
+  font-size: 16px;
+  font-family: "FreeSetDemiC", "Arial", sans-serif;
+}
+
+@media (max-width:895px) {
+  .phone-number--footer {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:830px){
+  .phone-number {
+    font-size: 13px;
+  }
+}
+
+@media (max-width:768px) {
+ .phone-number{
+    width: auto;
+    text-align: left;
+    font-size: 18px;
+  }
+}
+
+@media (max-width:570px) {
+  .phone-number {
+    text-align: center;
+  }
+}

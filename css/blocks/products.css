@@ -1,0 +1,77 @@
+.products {
+  height: 946px;
+  background: url(../img/pr1_bg.png) no-repeat 50%, #e0dede; }
+
+.products__title {
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  font-size: 75px;
+  font-family: "a_empirial";
+  font-weight: normal;
+  color: #4d4f51;
+  text-align: center;
+  line-height: 1; }
+
+.products__tabs {
+  display: flex;
+  padding-bottom: 30px; }
+
+.products__tab {
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 33.33%;
+  text-align: center;
+  background-color: #00815d;
+  padding: 27px 0;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s; }
+  .products__tab--center {
+    border-right: 1px solid #459f86;
+    border-left: 1px solid #459f86; }
+  .products__tab--active {
+    background-color: #005a41; }
+
+.products__tab-arrow-prev {
+  padding-left: 20px;
+  display: none; }
+
+.products__tab-arrow-next {
+  padding-right: 20px;
+  display: none; }
+
+@media (max-width: 768px) {
+  .products {
+    background-color: #edf2f1;
+    background-image: none;
+    padding-bottom: 50px;
+    height: auto; }
+
+  .products__title {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+
+  .products__tabs {
+    display: flex;
+    justify-content: center; }
+
+  .products__tab {
+    cursor: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 390px;
+    text-align: center; }
+
+  .products__tab-arrow-prev, .products__tab-arrow-next {
+    cursor: pointer;
+    display: inline-block; }
+
+  .products__tab--prod, .products__tab--tech {
+    display: none; } }
+@media (max-width: 320px) {
+  .products__title {
+    font-size: 50pt;
+    padding: 40px 0; } }
+
+/*# sourceMappingURL=products.css.map */

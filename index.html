@@ -4,38 +4,30 @@
   <meta charset="UTF-8">
   <title>Doublev</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="slick/slick.css"/>
-  <link rel="stylesheet" href="slick/slick-theme.css"/>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/adaptive.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <div class="wrapper">
     <header> 
-      <div class="header_first">
+      <div class="header-first">
         <div class="container">
-          <div class="header_first__content flex-center">
+          <div class="header-first__content">
             <h1 class="visuallyHidden">Компания DoubleV — Системный интегратор в области полиграфии</h1>
-            <span class="header_description">Системный интегратор в области полиграфии</span>
-            <div class="header_feedback flex-center">
-              <a href="tel:+7(495)7250888" class="number" title="">+7 495 725-08-88</a>
-              <a href="#" class="feedback opacity" title="">Обратная связь</a>
-            </div>
-            <div class="header_socail flex-center">
-              <ul class="social-icons flex-center">
-                <li class="social-item flex-center"><a class="social-icon fb" href="#" aria-label="facebook" title=""></a></li>
-                <li class="social-item flex-center"><a class="social-icon linkedin" href="#" aria-label="linkedin" title=""></a></li>
-                <li class="social-item flex-center"><a class="social-icon vk" href="#" aria-label="vkontakte" title=""></a></li>
-              </ul>
-              <a href="#" class="language flex-center opacity" title="">
-                <img src="icons/en.svg" alt="english">
-                <span  class="language__name">En</span>
-              </a>
-            </div>
+            <span class="header-first__description">Системный интегратор в области полиграфии</span>
+            <a href="tel:+7(495)7250888" class="phone-number" title="">+7 495 725-08-88</a>
+            <a href="#" class="feedback opacity" title="">Обратная связь</a>
+            <ul class="social-links">
+              <li class="social-item"><a class="fb" href="#" aria-label="facebook" title=""></a></li>
+              <li class="social-item"><a class="linkedin" href="#" aria-label="linkedin" title=""></a></li>
+              <li class="social-item"><a class="vk" href="#" aria-label="vkontakte" title=""></a></li>
+            </ul>
+            <a href="#" class="language opacity" title="">
+              <img src="icons/en.svg" alt="english">
+              <span class="language__name">En</span>
+            </a>
           </div>
 
-          <div class="header_first__content-tablet">
+          <div class="header-first__content--tablet">
             <a href="#" class="menu-tablet opacity" title="">
               <img class="menu-tablet-burher" src="icons/burger_white.svg" alt="menu">
               <p class="header__description opacity">Меню</p>
@@ -43,13 +35,10 @@
             <a href="#" title="">
               <img class="tablet-logo logo__pic" src="img/logo-tablet.png" alt="logo">
             </a>
-            <button class="search-tablet" aria-label="Поиск">
-              <img class="tablet-search" src="icons/magnifyer_white.svg" alt="search">
+            <button class="search--tablet" aria-label="Поиск">
+              <img src="icons/magnifyer_white.svg" alt="search">
             </button>
-            <a href="#" class="tablet-price opacity" title="">
-              <img src="icons/price_white.svg" alt="pricelist icon">
-              <p class="header__description">Прайс-лист</p>
-            </a>
+            <button class="btn btn--tablet-price opacity">Прайс–Лист</button>
             <a href="#" class="language flex-center opacity" title="">
               <img src="icons/en.svg" alt="english">
               <span  class="language__name">En</span>
@@ -58,294 +47,265 @@
         </div>
       </div>
 
-      <div class="header_second">
+      <div class="header-second">
         <div class="container">
-          <div class="header_second__content flex-center">
+          <div class="header-second__content">
             <a href="#" class="logo" title="">
               <img src="img/logo.png" alt="logo" class="logo__pic">
             </a>
             <nav>
-              <ul class="nav flex-start">
+              <ul class="nav">
                 <li class="nav__item">
-                  <a class="nav__item__link nav__item-catalog" href="#" title="">
-                    Каталог
-                    <img class="arrow" src="img/arrow.png" alt="catalog">
+                  <a class="nav__item-link" href="#" title="">
+                    Каталог<img class="nav__item-link-arrow" src="img/arrow.png" alt="catalog">
                   </a>
                 </li>
-                <li class="nav__item"><a class="nav__item__link" href="#" title="">О компании</a></li>
-                <li class="nav__item"><a class="nav__item__link" href="#" title="">Полезная информация</a></li>
-                <li class="nav__item"><a class="nav__item__link" href="#" title="">Центр розничных продаж</a></li>
-                <li class="nav__item"><a class="nav__item__link" href="#" title="">Арт-площадка</a></li>
-                <li class="nav__item"><a class="nav__item__link" href="#" title="">Контакты</a></li>
+                <li class="nav__item"><a class="nav__item-link" href="#" title="">О компании</a></li>
+                <li class="nav__item"><a class="nav__item-link" href="#" title="">Полезная информация</a></li>
+                <li class="nav__item"><a class="nav__item-link" href="#" title="">Центр розничных продаж</a></li>
+                <li class="nav__item"><a class="nav__item-link" href="#" title="">Арт-площадка</a></li>
+                <li class="nav__item"><a class="nav__item-link" href="#" title="">Контакты</a></li>
               </ul>
             </nav>
-            <div class="price_and_search flex-center">
+            <div class="search__wrap">
               <button class="search" aria-label="Поиск"></button>
-              <button class="btn btn-price">
-                <span class="btn_price__text btn_price__text-top">Прайс–Лист</span>
-              </button>
             </div>
+            <button class="btn btn--price">Прайс–Лист</button>
           </div>
         </div>
       </div>
     </header>
 
     <main class="content">
-      <div class="banner-slider">
+      <div class="slider">
         <div class="banner">
-          <div class="container-banner">
-            <div class="banner__all">
-              <div class="banner__title">
-                <div class="banner__title__h1">Cocktail</div>
-                <div class="banner__title__new">New</div>
-              </div>
-              <div class="banner__desc__first">
-                чистоцеллюлозная бумага с двусторонним  металлизированным покрытием
-              </div>
-              <ul class="banner_sizes flex-start">
-                <li class="size">120 г/м<sup>2</sup></li>
-                <li class="size">290 г/м<sup>2</sup></li>
-              </ul>
-              <div class="banner__desc__second">
-              Идеально подходит для изготовления  упаковки, печати корпоративных изданий,
-              обложек, брошюр
-              </div>
-              <div class="banner__logo">
-                <img class="banner__img" src="img/banner_logo.png" alt="banner">
-              </div>
+          <div class="banner__container">
+            <div class="banner__title">
+              <div class="banner__title-h1">Cocktail</div>
+              <div class="banner__title-new">New</div>
+            </div>
+            <div class="banner__desc-first">
+              чистоцеллюлозная бумага с двусторонним  металлизированным покрытием
+            </div>
+            <ul class="banner__sizes-list">
+              <li class="banner__size">120 г/м<sup>2</sup></li>
+              <li class="banner__size">290 г/м<sup>2</sup></li>
+            </ul>
+            <div class="banner__desc-second">
+            Идеально подходит для изготовления  упаковки, печати корпоративных изданий,
+            обложек, брошюр
+            </div>
+            <div class="banner__logo">
+              <img class="banner__img" src="img/banner_logo.png" alt="banner">
             </div>
           </div>
         </div>
 
         <div class="banner">
-          <div class="container-banner">
-            <div class="banner__all">
-              <div class="banner__title">
-                <div class="banner__title__h1">Cocktail</div>
-                <div class="banner__title__new">New</div>
-              </div>
-              <div class="banner__desc__first">
-                чистоцеллюлозная бумага с двусторонним  металлизированным покрытием
-              </div>
-              <ul class="banner_sizes flex-start">
-                <li class="size">120 г/м<sup>2</sup></li>
-                <li class="size">290 г/м<sup>2</sup></li>
-              </ul>
-              <div class="banner__desc__second">
-              Идеально подходит для изготовления  упаковки, печати корпоративных изданий,
-              обложек, брошюр
-              </div>
-              <div class="banner__logo">
-                <img class="banner__img" src="img/banner_logo.png" alt="banner">
-              </div>
+          <div class="banner__container">
+            <div class="banner__title">
+              <div class="banner__title-h1">Cocktail</div>
+              <div class="banner__title-new">New</div>
+            </div>
+            <div class="banner__desc-first">
+              чистоцеллюлозная бумага с двусторонним  металлизированным покрытием
+            </div>
+            <ul class="banner__sizes-list">
+              <li class="banner__size">120 г/м<sup>2</sup></li>
+              <li class="banner__size">290 г/м<sup>2</sup></li>
+            </ul>
+            <div class="banner__desc-second">
+            Идеально подходит для изготовления  упаковки, печати корпоративных изданий,
+            обложек, брошюр
+            </div>
+            <div class="banner__logo">
+              <img class="banner__img" src="img/banner_logo.png" alt="banner">
             </div>
           </div>
         </div>
       </div>
 
-      <section class="section__products">
+      <section class="products">
         <div class="container">
 
-          <h2 class="product__title">Каталог</h2>
-          <div class="tabs">
-            <div class="tab tab-active" id="tab-mat">
-              <a class=arrow-prev title=""><img src="img/arrow-prev.png" alt="previous-item"></a>
+          <h2 class="products__title">Каталог</h2>
+          <div class="products__tabs">
+            <div class="products__tab products__tab--active products__tab--mat">
+              <a class=products__tab-arrow-prev title=""><img src="img/arrow-prev.png" alt="previous-item"></a>
               <span class="opacity">Материал</span>
-              <a class=arrow-next title=""><img src="img/arrow-next.png" alt="next-item"></a>
+              <a class=products__tab-arrow-next title=""><img src="img/arrow-next.png" alt="next-item"></a>
             </div>
-            <div class="tab tab-center" id="tab-prod">
-              <a class=arrow-prev title=""><img src="img/arrow-prev.png" alt="previous-item"></a>
+            <div class="products__tab products__tab--center products__tab--prod">
+              <a class=products__tab-arrow-prev title=""><img src="img/arrow-prev.png" alt="previous-item"></a>
               <span class="opacity">Конечный продукт</span>
-              <a class=arrow-next title=""><img src="img/arrow-next.png" alt="next-item"></a>
+              <a class=products__tab-arrow-next title=""><img src="img/arrow-next.png" alt="next-item"></a>
             </div>
-            <div class="tab" id="tab-tech">
-              <a class=arrow-prev title=""><img src="img/arrow-prev.png" alt="previous-item"></a>
+            <div class="products__tab products__tab--tech">
+              <a class=products__tab-arrow-prev title=""><img src="img/arrow-prev.png" alt="previous-item"></a>
               <span class="opacity">Технология</span>
-              <a class=arrow-next title=""><img src="img/arrow-next.png" alt="next-item"></a>
+              <a class=products__tab-arrow-next title=""><img src="img/arrow-next.png" alt="next-item"></a>
             </div>
           </div>
 
-          <ul class="categories clearfix" id="materials">
-            <li class="cat materials paper"><p class="cat__text">Бумага</p></li>
-            <li class="cat materials envelopes"><p class="cat__text">Конверты</p></li>
-            <li class="cat materials cardboards"><p class="cat__text">Картоны</p></li>
-            <li class="cat materials sticker"><p class="cat__text">Самоклеящиеся материалы</p></li>
-            <li class="cat materials cover"><p class="cat__text">Переплетные материалы</p></li>
-            <li class="cat materials films"><p class="cat__text">Пленки</p></li>
-            <li class="cat materials paints"><p class="cat__text">Краски</p></li>
-            <li class="cat materials foil"><p class="cat__text">Фольга</p></li>
-            <li class="cat materials lacquer"><p class="cat__text">Лаки</p></li>
-            <li class="cat materials glue"><p class="cat__text">Клеи</p></li>
-            <li class="cat materials mat-cards"><p class="cat__text">Материалы<br>для пластиковых карт</p></li>
+          <ul class="categories categories--materials">
+            <li class="categories__cat categories__materials categories__materials--paper"><p class="categories__text">Бумага</p></li>
+            <li class="categories__cat categories__materials categories__materials--envelopes"><p class="categories__text">Конверты</p></li>
+            <li class="categories__cat categories__materials categories__materials--cardboards"><p class="categories__text">Картоны</p></li>
+            <li class="categories__cat categories__materials categories__materials--sticker"><p class="categories__text">Самоклеящиеся материалы</p></li>
+            <li class="categories__cat categories__materials categories__materials--cover"><p class="categories__text">Переплетные материалы</p></li>
+            <li class="categories__cat categories__materials categories__materials--films"><p class="categories__text">Пленки</p></li>
+            <li class="categories__cat categories__materials categories__materials--paints"><p class="categories__text">Краски</p></li>
+            <li class="categories__cat categories__materials categories__materials--foil"><p class="categories__text">Фольга</p></li>
+            <li class="categories__cat categories__materials categories__materials--lacquer"><p class="categories__text">Лаки</p></li>
+            <li class="categories__cat categories__materials categories__materials--glue"><p class="categories__text">Клеи</p></li>
+            <li class="categories__cat categories__materials categories__materials--mat-cards"><p class="categories__text">Материалы<br>для пластиковых карт</p></li>
           </ul>
 
-          <ul class="categories clearfix" id="final_product">
-            <li class="cat product book"><p class="cat__text">Книгоиздание</p></li>
-            <li class="cat product adv"><p class="cat__text">Реклама</p></li>
-            <li class="cat product label"><p class="cat__text">Этикетка</p></li>
-            <li class="cat product pack"><p class="cat__text">Упаковка</p></li>
-            <li class="cat product cards"><p class="cat__text">Пластиковые карты</p></li>
+          <ul class="categories categories--final_product">
+            <li class="categories__cat categories__product categories__product--book"><p class="categories__text">Книгоиздание</p></li>
+            <li class="categories__cat categories__product categories__product--adv"><p class="categories__text">Реклама</p></li>
+            <li class="categories__cat categories__product categories__product--label"><p class="categories__text">Этикетка</p></li>
+            <li class="categories__cat categories__product categories__product--pack"><p class="categories__text">Упаковка</p></li>
+            <li class="categories__cat categories__product categories__product--cards"><p class="categories__text">Пластиковые карты</p></li>
           </ul>
 
-          <ul class="categories clearfix" id="technology">
-            <li class="cat technology digital-print"><p class="cat__text">Цифровая печать</p></li>
-            <li class="cat technology offset"><p class="cat__text">Офсетная печать</p></li>
-            <li class="cat technology narrow-print"><p class="cat__text">Узкорулонная печать</p></li>
-            <li class="cat technology emboss"><p class="cat__text">Тиснение</p></li>
-            <li class="cat technology prod-cards"><p class="cat__text">Производство пластиковых карт</p></li>
+          <ul class="categories categories--technology">
+            <li class="categories__cat categories__technology categories__technology--digital-print"><p class="categories__text">Цифровая печать</p></li>
+            <li class="categories__cat categories__technology categories__technology--offset"><p class="categories__text">Офсетная печать</p></li>
+            <li class="categories__cat categories__technology categories__technology--narrow-print"><p class="categories__text">Узкорулонная печать</p></li>
+            <li class="categories__cat categories__technology categories__technology--emboss"><p class="categories__text">Тиснение</p></li>
+            <li class="categories__cat categories__technology categories__technology--prod-cards"><p class="categories__text">Производство пластиковых карт</p></li>
           </ul>
         </div>
       </section>
 
-      <section class="section__news_and_sales">
+      <section class="news-and-sales">
         <div class="container">
-          <h2 class="product__title">Новинки и акции</h2>
-          <div class="news_and_sales flex-center">
-            <article class="news_and_sales__block sale__desc-sale">
-              <div class="flag flag-sale">
-                <div class="f-left f-sale"></div>
-                <span class="font">акция</span>
-                <div class="f-right f-sale"></div> 
+          <h2 class="news-and-sales__title">Новинки и акции</h2>
+          <div class="news-and-sales__content">
+            <article class="news-and-sales__block news-and-sales__block--sale">
+              <div class="news-and-sales__flag news-and-sales__flag--sale">
+                <span class="news-and-sales__flag-name">акция</span>
               </div> 
-              <img class="sale-img" src="img/sale1.png" alt="Мелованная бумага HI-KOTE от APP">
-              <div class="sale__desc">
-                <h3 class="sale__desc-title">Мелованная бумага HI-KOTE от APP</h3>
-                <div class="sale__desc-text">тонированная в массе бумага фантастически глубокого черного цвета B100</div>
+              <img class="news-and-sales__img" src="img/sale1.png" alt="Мелованная бумага HI-KOTE от APP">
+              <div class="news-and-sales__description">
+                <h3 class="news-and-sales__description-title">Мелованная бумага HI-KOTE от APP</h3>
+                <div class="news-and-sales__description-text">тонированная в массе бумага фантастически глубокого черного цвета B100</div>
               </div>
             </article>
 
-            <article class="news_and_sales__block sale__desc-sale">
-              <div class="flag flag-sale">
-                <div class="f-left f-sale"></div>
-                <span class="font">акция</span>
-                <div class="f-right f-sale"></div> 
+            <article class="news-and-sales__block news-and-sales__block--sale">
+              <div class="news-and-sales__flag news-and-sales__flag--sale">
+                <span class="news-and-sales__flag-name">акция</span>
               </div> 
-              <img class="sale-img" src="img/sale2.png" alt="Коллекции флокированных материалов">
-              <div class="sale__desc">
-                <h3 class="sale__desc-title">Четыре новых цвета в коллекции флокированных материалов<br>SEF Dainel SG</h3>
-                <div class="sale__desc-text">тонированная в массе бумага фантастически глубокого черного цвета B100</div>
+              <img class="news-and-sales__img" src="img/sale2.png" alt="Коллекции флокированных материалов">
+              <div class="news-and-sales__description">
+                <h3 class="news-and-sales__description-title">Четыре новых цвета в коллекции флокированных материалов<br>SEF Dainel SG</h3>
+                <div class="news-and-sales__description-text">тонированная в массе бумага фантастически глубокого черного цвета B100</div>
               </div>
             </article>
 
-            <article class="news_and_sales__block sale__desc-new">
-              <div class="flag flag-new">
-                <div class="f-left f-new"></div>
-                <span class="font">новинка</span>
-                <div class="f-right f-new"></div> 
+            <article class="news-and-sales__block news-and-sales__block--new">
+              <div class="news-and-sales__flag news-and-sales__flag--new">
+                <span class="news-and-sales__flag-name">новинка</span>
               </div> 
-              <img class="sale-img" src="img/sale3.png" alt="Новый продукт от компании Mondi YBBS">
-              <div class="sale__desc">
-                <h3 class="sale__desc-title">Новый продукт от компании Mondi YBBS® premium colored board Black!</h3>
-                <div class="sale__desc-text">тонированная в массе бумага фантастически глубокого черного цвета B100</div>
+              <img class="news-and-sales__img" src="img/sale3.png" alt="Новый продукт от компании Mondi YBBS">
+              <div class="news-and-sales__description">
+                <h3 class="news-and-sales__description-title">Новый продукт от компании Mondi YBBS® premium colored board Black!</h3>
+                <div class="news-and-sales__description-text">тонированная в массе бумага фантастически глубокого черного цвета B100</div>
               </div>
             </article>
 
-            <article class="news_and_sales__block sale__desc-new">
-              <div class="flag flag-new">
-                <div class="f-left f-new"></div>
-                <span class="font">новинка</span>
-                <div class="f-right f-new"></div> 
+            <article class="news-and-sales__block news-and-sales__block--new">
+              <div class="news-and-sales__flag news-and-sales__flag--new">
+                <span class="news-and-sales__flag-name">новинка</span>
               </div> 
-              <img class="sale-img" src="img/sale4.png" alt="Уникальная коллекция белых бумаг">
-              <div class="sale__desc">
-                <h3 class="sale__desc-title">Уникальная коллекция белых бумаг<br>от Mondi PERGRAPHICA уже на складе</h3>
-                <div class="sale__desc-text">тонированная в массе бумага фантастически глубокого черного цвета B100</div>
+              <img class="news-and-sales__img" src="img/sale4.png" alt="Уникальная коллекция белых бумаг">
+              <div class="news-and-sales__description">
+                <h3 class="news-and-sales__description-title">Уникальная коллекция белых бумаг<br>от Mondi PERGRAPHICA уже на складе</h3>
+                <div class="news-and-sales__description-text">тонированная в массе бумага фантастически глубокого черного цвета B100</div>
               </div>
             </article>
 
-            <article class="news_and_sales__block sale__desc-new">
-              <div class="flag flag-new">
-                <div class="f-left f-new"></div>
-                <span class="font">новинка</span>
-                <div class="f-right f-new"></div> 
+            <article class="news-and-sales__block news-and-sales__block--new">
+              <div class="news-and-sales__flag news-and-sales__flag--new">
+                <span class="news-and-sales__flag-name">новинка</span>
               </div> 
-              <img class="sale-img" src="img/sale5.png" alt="Дизайнерская бумага COLORPLAN">
-              <div class="sale__desc">
-                <h3 class="sale__desc-title">Дизайнерская бумага COLORPLAN<br>с покрытием для печати на HP Indigo</h3>
-                <div class="sale__desc-text">тонированная в массе бумага фантастически глубокого черного цвета B100</div>
+              <img class="news-and-sales__img" src="img/sale5.png" alt="Дизайнерская бумага COLORPLAN">
+              <div class="news-and-sales__description">
+                <h3 class="news-and-sales__description-title">Дизайнерская бумага COLORPLAN<br>с покрытием для печати на HP Indigo</h3>
+                <div class="news-and-sales__description-text">тонированная в массе бумага фантастически глубокого черного цвета B100</div>
               </div>
             </article>
 
-            <article class="news_and_sales__block sale__desc-sale">
-              <div class="flag flag-sale">
-                <div class="f-left f-sale"></div>
-                <span class="font">акция</span>
-                <div class="f-right f-sale"></div> 
+            <article class="news-and-sales__block news-and-sales__block--sale">
+              <div class="news-and-sales__flag news-and-sales__flag--sale">
+                <span class="news-and-sales__flag-name">акция</span>
               </div> 
-              <img class="sale-img" src="img/sale6.png" alt="Мелованная бумага HI-KOTE от APP">
-              <div class="sale__desc">
-                <h3 class="sale__desc-title">Мелованная бумага HI-KOTE от APP</h3>
-                <div class="sale__desc-text">тонированная в массе бумага фантастически глубокого черного цвета B100</div>
+              <img class="news-and-sales__img" src="img/sale6.png" alt="Мелованная бумага HI-KOTE от APP">
+              <div class="news-and-sales__description">
+                <h3 class="news-and-sales__description-title">Мелованная бумага HI-KOTE от APP</h3>
+                <div class="news-and-sales__description-text">тонированная в массе бумага фантастически глубокого черного цвета B100</div>
               </div>
             </article>
           </div>
-          <button class="btn__all_sales">Все новинки и акции</button>
+          <button class="btn btn--all-sales">Все новинки и акции</button>
         </div>
       </section> 
     </main>
 
     <footer class="footer">
-      <div class="footer__first">
+      <div class="footer-first">
         <div class="container">
-          <div class="footer__first__content flex-center">
-            <div class="logo logo_footer">
-              <a href="#" class="logo" title="">
-                <img src="img/logo.png" alt="logo" class="logo__pic">
-              </a>
-            </div>
-            <ul class="nav__footer flex-center">
-              <li class="nav__item"><a class="nav__item__link" href="#" title="">Каталог</a></li>
-              <li class="nav__item"><a class="nav__item__link" href="#" title="">О компании</a></li>
-              <li class="nav__item"><a class="nav__item__link" href="#" title="">Полезная информация</a></li>
-              <li class="nav__item"><a class="nav__item__link" href="#" title="">Контакты</a></li>
+          <div class="footer-first__content flex-center">
+            <a href="#" class="logo logo--footer" title="">
+              <img src="img/logo.png" alt="logo" class="logo__pic">
+            </a>
+            <ul class="nav nav--footer">
+              <li class="nav__item--footer"><a class="nav__item-link" href="#" title="">Каталог</a></li>
+              <li class="nav__item--footer"><a class="nav__item-link" href="#" title="">О компании</a></li>
+              <li class="nav__item--footer"><a class="nav__item-link" href="#" title="">Полезная информация</a></li>
+              <li class="nav__item--footer"><a class="nav__item-link" href="#" title="">Контакты</a></li>
             </ul>
-            <button class="btn btn-feedback">
-              <span class="btn_price__text">Обратная связь</span>
-            </button>
+            <button class="btn btn--feedback">Обратная связь</button>
           </div>
 
-          <div class="footer__first__content-tablet">
-            <div class="contacts-tablet">
-              <div class="footer__number">
-                <a href="tel:+7(495)7250888" title="">+7 495 725-08-88</a>
-              </div>
-              <div class="footer__address">
+          <div class="footer-first__content-tablet">
+            <div class="footer-first__contacts-tablet">
+              <a href="tel:+7(495)7250888" class="phone-number" title="">+7 495 725-08-88</a>
+              <div class="footer-second__address">
                 МО, Котельники, мкр-н Ковровый, д. 37/3
               </div>
             </div>
-            <ul class="social-icons soc-icon-footer-tablet flex-center">
+            <ul class="social-links--footer">
               <li class="social-item flex-center"><a class="social-icon fb" href="#" aria-label="facebook" title=""></a></li>
               <li class="social-item flex-center"><a class="social-icon linkedin" href="#" aria-label="linkedin" title=""></a></li>
               <li class="social-item flex-center"><a class="social-icon vk" href="#" aria-label="vkontakte" title=""></a></li>
             </ul>
-            <button class="btn btn-feedback-tablet">
-              <span class="btn_price__text">Обратная связь</span>
-            </button>
+            <button class="btn btn--feedback-tablet">Обратная связь</button>
           </div>
         </div>
       </div>
 
-      <div class="footer__second">
+      <div class="footer-second">
         <div class="container">
-          <div class="footer__second__content flex-center">
-            <div class="footer__desc">
+          <div class="footer-second__content">
+            <div class="footer-second__description">
               © 2006-2016 Группа компаний «Дубль В».<br>Системный интегратор в области полиграфии
             </div>
-            <div class="footer__number">
-              <a href="tel:+7(495)7250888">+7 495 725-08-88</a>
-            </div>
-            <div class="footer__address">
+            <a href="tel:+7(495)7250888" class="phone-number phone-number--footer">+7 495 725-08-88</a>
+            <div class="footer-second__address">
               МО, Котельники, мкр-н Ковровый, д. 37/3
             </div>
-            <ul class="social-icons flex-center">
+            <ul class="social-links--footer">
               <li class="social-item flex-center"><a class="social-icon fb" href="#" aria-label="facebook" title=""></a></li>
               <li class="social-item flex-center"><a class="social-icon linkedin" href="#" aria-label="linkedin" title=""></a></li>
               <li class="social-item flex-center"><a class="social-icon vk" href="#" aria-label="vkontakte" title=""></a></li>
             </ul>
           </div>
 
-          <div class="footer__second__content-tablet">
-            <div class="footer__desc">
+          <div class="footer-second__content-tablet">
+            <div class="footer-second__description">
               © 2006-2016 Группа компаний «Дубль В».<br>Системный интегратор в области полиграфии
             </div> 
           </div>

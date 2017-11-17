@@ -1,6 +1,6 @@
 jQuery(document).ready(function(){
 
-  $('.banner-slider').slick({
+  $('.slider').slick({
     dots: true,
     arrows: false
   });
@@ -10,21 +10,21 @@ jQuery(document).ready(function(){
       $(cat1).show("500");
       $(cat2).hide();
       $(cat3).hide();
-      $('.section__products').css('background', 'url(img/' + img + ') no-repeat 50%,' + background );
+      $('.products').css('background', 'url(img/' + img + ') no-repeat 50%,' + background );
     })
   };
 
   function changeActiveTab () {
-    $(".tab").click(function(e) {
+    $(".products__tab").click(function(e) {
       e.preventDefault();
-      $(".tab").removeClass('tab-active');
-      $(this).addClass('tab-active');
+      $(".products__tab").removeClass('products__tab--active');
+      $(this).addClass('products__tab--active');
     })
   }
 
-  showProduct('#tab-mat', '#materials', '#final_product', '#technology', 'pr1_bg.png', '#e0dede');
-  showProduct('#tab-prod', '#final_product', '#materials', '#technology', 'pr2_bg.png', '#ddddde');
-  showProduct('#tab-tech', '#technology', '#final_product', '#materials', 'pr3_bg.png', '#e8e8e8');
+  showProduct('.products__tab--mat', '.categories--materials', '.categories--final_product', '.categories--technology', 'pr1_bg.png', '#e0dede');
+  showProduct('.products__tab--prod', '.categories--final_product', '.categories--materials', '.categories--technology', 'pr2_bg.png', '#ddddde');
+  showProduct('.products__tab--tech', '.categories--technology', '.categories--final_product', '.categories--materials', 'pr3_bg.png', '#e8e8e8');
   changeActiveTab();
   
 });

@@ -1,0 +1,15 @@
+@import 'mixins';
+
+.social-links {
+  @include flex-center;
+}
+
+.social-links--footer {
+  @include flex-center;
+}
+
+@media (max-width:570px){
+  .social-links--footer {   
+    order: 1;
+  }
+}

@@ -1,0 +1,66 @@
+@import 'mixins';
+
+.footer-second{
+  background-color: #00815d;
+}
+
+.footer-second__content {
+  min-height: 100px;
+  color: #fff;
+  font-family: "freesetlightc", "Arial", sans-serif;
+  @include flex-center;
+}
+
+.footer-second__content-tablet {
+  display: none;
+}
+
+.footer-second__description {
+  font-size: 14px;
+}
+
+@media (max-width:895px) {
+  .footer-second__description, .footer-second__address {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:768px) {
+  .footer-second{
+    height: 70px;
+    background-color: #edf1f1;
+  }
+
+  .footer-second__content{
+    display: none;
+  }
+
+  .footer-second__content-tablet{
+    height: 70px;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-second__description {
+    font-family: "freesetlightc", "Arial", sans-serif;
+    color: #999;
+    font-size: 14px;
+  }
+
+  .footer-second__address{
+    font-family: "freesetlightc", "Arial", sans-serif;
+    width: auto;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+
+
+@media (max-width:320px) {
+  .footer-second__description {
+    width: 260px;
+    min-height: 28px;
+    font-size: 12px;
+    text-align: center;
+  }
+}

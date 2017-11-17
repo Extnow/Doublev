@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,yBAAyB;EACvB,SAAU;IACR,SAAS,EAAE,IAAI",
+"sources": ["../../scss/blocks/feedback.scss"],
+"names": [],
+"file": "feedback.css"
+}
