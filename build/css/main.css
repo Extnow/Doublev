@@ -2,19 +2,19 @@
 /* ------------------- Шрифты ----------------- */
 @font-face {
   font-family: "FreeSetDemiC";
-  src: url("../fonts/FreeSetDemiC.otf");
+  src: url("../../src/fonts/FreeSetDemiC.otf");
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: "a_empirial";
-  src: url("../fonts/a_empirial.ttf");
+  src: url("../../src/fonts/a_empirial.ttf");
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: "freesetlightc";
-  src: url("../fonts/freesetlightc.otf");
+  src: url("../../src/fonts/freesetlightc.otf");
   font-style: normal;
   font-weight: normal; }
 
@@ -85,7 +85,8 @@ h3 {
   transition: all 0.3s;
   opacity: 1; }
 
-.opacity:hover, .opacity:focus {
+.opacity:hover,
+.opacity:focus {
   opacity: 0.7; }
 
 .flex-center {
@@ -112,6 +113,7 @@ h3 {
 .footer {
   flex-shrink: 0; }
 
+/*blocks*/
 .header-first {
   background-color: #00815d;
   color: #fff; }
@@ -233,7 +235,7 @@ h3 {
   .header-second {
     display: none; } }
 
-.logo__pic {
+.logo__picture {
   max-width: 124px;
   max-height: 55px; }
 
@@ -1055,10 +1057,6 @@ h3 {
     min-height: 28px;
     font-size: 12px;
     text-align: center; } }
-
-/* Slider */
-.slick-loading .slick-list {
-  background: #fff url("./ajax-loader.gif") center center no-repeat; }
 
 /* Icons */
 @font-face {

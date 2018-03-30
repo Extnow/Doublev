@@ -2,21 +2,21 @@
 
 @font-face {
   font-family: "FreeSetDemiC";
-  src: url("../fonts/FreeSetDemiC.otf");
+  src: url("../../src/fonts/FreeSetDemiC.otf");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "a_empirial";
-  src: url("../fonts/a_empirial.ttf");
+  src: url("../../src/fonts/a_empirial.ttf");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "freesetlightc";
-  src: url("../fonts/freesetlightc.otf");
+  src: url("../../src/fonts/freesetlightc.otf");
   font-style: normal;
   font-weight: normal;
 }
@@ -88,24 +88,25 @@ h3 {
   padding: 0 5px;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .container {
     max-width: 712px;
   }
 }
 
-@media (max-width:320px){
-  .container{
+@media (max-width: 320px) {
+  .container {
     max-width: 280px;
   }
 }
 
 .opacity {
-  transition: all 0.3s; 
+  transition: all 0.3s;
   opacity: 1;
 }
 
-.opacity:hover, .opacity:focus {
+.opacity:hover,
+.opacity:focus {
   opacity: 0.7;
 }
 
