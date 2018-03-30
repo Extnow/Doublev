@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,UAAU;EACR,SAAS,EAAE,KAAK;EAChB,UAAU,EAAE,IAAI",
-"sources": ["../../scss/blocks/logo.scss"],
-"names": [],
-"file": "logo.css"
-}

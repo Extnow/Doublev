@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEA,aAAc;ECDZ,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;;ADGhC,qBAAsB;ECLpB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;;ADOhC,yBAAwB;EACtB,qBAAsB;IACpB,KAAK,EAAE,CAAC",
-"sources": ["../../scss/blocks/social-links.scss","../../scss/mixins.scss"],
-"names": [],
-"file": "social-links.css"
-}

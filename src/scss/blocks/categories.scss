@@ -1,0 +1,381 @@
+.categories {
+  max-width: 1182px;
+  @include clearfix;
+}
+
+.categories--final_product,
+.categories--technology {
+  display: none;
+}
+
+.categories__cat {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #c6c5c3;
+  font-size: 25px;
+  font-family: "freesetlightc", "Arial", sans-serif;
+  text-transform: uppercase;
+  vertical-align: top;
+  cursor: pointer;
+  transition: background-color 0.6s;
+  float: left;
+
+  &:hover {
+    color: #fff;
+    border: none;
+    box-shadow: 0px 0px 40px 15px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.categories__materials {
+  width: 25%;
+  height: 168px;
+
+  &--paper {
+    height: 336px;
+  }
+
+  &--paper:hover {
+    background: url(../../src/backgrounds/material-paper.svg) no-repeat bottom, #0091c4;
+  }
+
+  &--envelopes:hover {
+    background: url(../../src/backgrounds/material-envelopes.svg) no-repeat right bottom, #e03c7c;
+  }
+
+  &--cardboards:hover {
+    background: url(../../src/backgrounds/material-cardboards.svg) no-repeat right bottom, #fcad4b;
+  }
+
+  &--sticker:hover {
+    background: url(../../src/backgrounds/material-sticker.svg) no-repeat right bottom, #9d080d;
+  }
+
+  &--cover:hover {
+    background: url(../../src/backgrounds/material-cover.svg) no-repeat right bottom, #e03c7c;
+  }
+
+  &--films:hover {
+    background: url(../../src/backgrounds/material-films.svg) no-repeat right bottom, #0091c4;
+  }
+
+  &--foil:hover {
+    background: url(../../src/backgrounds/material-foil.svg) no-repeat right bottom, #00815d;
+  }
+
+  &--glue:hover {
+    background: url(../../src/backgrounds/material-glue.svg) no-repeat right bottom, #00815d;
+  }
+
+  &--lacquer:hover {
+    background: url(../../src/backgrounds/material-lacquer.svg) no-repeat right bottom, #0091c4;
+  }
+
+  &--paints:hover {
+    background: url(../../src/backgrounds/material-paints.svg) no-repeat right bottom, #fcad4b;
+  }
+
+  &--mat-cards:hover {
+    background: url(../../src/backgrounds/material-cards.svg) no-repeat right bottom, #9d080d;
+  }
+}
+
+.categories__product {
+  width: 33.33%;
+  height: 265px;
+
+  &--book {
+    height: 530px;
+  }
+
+  &--book:hover {
+    background: url(../../src/backgrounds/final-book.svg) no-repeat right bottom, #0091c4;
+  }
+
+  &--adv:hover {
+    background: url(../../src/backgrounds/final-adv.svg) no-repeat right bottom, #e03c7c;
+  }
+
+  &--label:hover {
+    background: url(../../src/backgrounds/final-label.svg) no-repeat right bottom, #00815d;
+  }
+
+  &--pack:hover {
+    background: url(../../src/backgrounds/final-pack.svg) no-repeat right bottom, #9d080d;
+  }
+
+  &--cards:hover {
+    background: url(../../src/backgrounds/tech-cards.svg) no-repeat right bottom, #fcad4b;
+  }
+}
+
+.categories__technology {
+  width: 33.33%;
+  height: 265px;
+
+  &--digital-print {
+    height: 530px;
+  }
+
+  &--prod-cards:hover {
+    background: url(../../src/backgrounds/tech-cards.svg) no-repeat right bottom, #fcad4b;
+  }
+
+  &--digital-print:hover {
+    background: url(../../src/backgrounds/tech-digital-print.svg) no-repeat right bottom, #0091c4;
+  }
+
+  &--emboss:hover {
+    background: url(../../src/backgrounds/tech-emboss.svg) no-repeat right bottom, #9d080d;
+  }
+
+  &--offset:hover {
+    background: url(../../src/backgrounds/tech-offset.svg) no-repeat right bottom, #e03c7c;
+  }
+
+  &--narrow-print:hover {
+    background: url(../../src/backgrounds/tech-narrow-print.svg) no-repeat right bottom, #00815d;
+  }
+}
+
+.categories__text {
+  padding: 20px 0 0 25px;
+  margin: 0;
+}
+
+@media (max-width: 1082px) {
+  .categories__cat {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 895px) {
+  .categories__text {
+    padding: 20px 0 0 15px;
+  }
+
+  .categories__cat {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .categories__materials {
+    width: 33.33%;
+    height: 100px;
+
+    &--paper {
+      height: 200px;
+      background-image: url(../../src/backgrounds/marerial-paper-720.svg);
+      background-position: 100% 100%;
+      background-size: auto;
+      background-repeat: no-repeat;
+    }
+
+    &--paper:hover {
+      background: #0091c4;
+    }
+
+    &--envelopes:hover {
+      background: #e03c7c;
+    }
+
+    &--cardboards:hover {
+      background: #fcad4b;
+    }
+
+    &--sticker:hover {
+      background: #9d080d;
+    }
+
+    &--cover:hover {
+      background: #e03c7c;
+    }
+
+    &--films:hover {
+      background: #0091c4;
+    }
+
+    &--foil:hover {
+      background: #00815d;
+    }
+
+    &--glue:hover {
+      background: #00815d;
+    }
+
+    &--lacquer:hover {
+      background: #0091c4;
+    }
+
+    &--paints:hover {
+      background: #fcad4b;
+    }
+
+    &--mat-cards:hover {
+      background: #9d080d;
+    }
+  }
+
+  .categories__product {
+    width: 33.33%;
+    height: 100px;
+
+    &--book {
+      height: 200px;
+      background-image: url(../../src/backgrounds/material-cover-720.svg);
+      background-position: 100% 100%;
+      background-size: auto;
+      background-repeat: no-repeat;
+    }
+
+    &--book:hover {
+      background: #0091c4;
+    }
+
+    &--adv:hover {
+      background: #e03c7c;
+    }
+
+    &--label:hover {
+      background: #00815d;
+    }
+
+    &--pack:hover {
+      background: #9d080d;
+    }
+
+    &--cards:hover {
+      background: #fcad4b;
+    }
+  }
+
+  .categories__technology {
+    width: 33.33%;
+    height: 100px;
+
+    &--digital-print {
+      height: 200px;
+      background-image: url(../../src/backgrounds/material-paints-720.svg);
+      background-position: 100% 100%;
+      background-size: auto;
+      background-repeat: no-repeat;
+    }
+
+    &--prod-cards:hover {
+      background: #fcad4b;
+    }
+
+    &--digital-print:hover {
+      background: #0091c4;
+    }
+
+    &--emboss:hover {
+      background: #9d080d;
+    }
+
+    &--offset:hover {
+      background: #e03c7c;
+    }
+
+    &--narrow-print:hover {
+      background: #00815d;
+    }
+  }
+
+  .categories__text {
+    padding: 10px 0 0 10px;
+  }
+}
+
+@media (max-width: 697px) {
+  .categories__text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  .categories__text {
+    font-size: 12px;
+    padding: 5px 0 0 5px;
+  }
+}
+
+@media (max-width: 370px) {
+  .categories__text {
+    font-size: 10px;
+    padding: 5px 0 0 5px;
+  }
+}
+
+@media (max-width: 320px) {
+  .categories {
+    height: auto;
+  }
+
+  .categories__cat {
+    border: 1px solid #c6c5c3;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+
+    &:last-child {
+      border-bottom: 1px solid #c6c5c3;
+    }
+  }
+
+  .categories__text {
+    font-size: 20px;
+    padding: 0 0 0 20px;
+  }
+
+  .categories__materials,
+  .categories__product,
+  .categories__technology {
+    max-width: 278px;
+    width: 100%;
+    height: auto;
+    padding: 27px 20px 27px 0;
+  }
+
+  .categories__materials--paper,
+  .categories__product--book,
+  .digital-print {
+    background-image: none;
+  }
+
+  .categories__materials--paper,
+  .categories__materials--films,
+  .categories__materials--lacquer,
+  .categories__product--book,
+  .digital-print {
+    border-left: 3px solid #0091c4;
+  }
+
+  .categories__materials--envelopes,
+  .categories__materials--cover,
+  .adv,
+  .offset {
+    border-left: 3px solid #e03c7c;
+  }
+
+  .categories__materials--cardboards,
+  .categories__materials--paints,
+  .categories__materials--mat-cards,
+  .prod-cards {
+    border-left: 3px solid #fcad4b;
+  }
+
+  .categories__materials--sticker,
+  .mat-cards,
+  .pack,
+  .emboss {
+    border-left: 3px solid #9d080d;
+  }
+
+  .categories__materials--foil,
+  .categories__materials--glue,
+  .label,
+  .narrow-print {
+    border-left: 3px solid #00815d;
+  }
+}

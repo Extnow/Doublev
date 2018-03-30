@@ -1,0 +1,42 @@
+.social-item {
+  @include flex-center;
+  margin-left: 10px;
+
+  &:nth-child(1) {
+    margin-left: 0;
+  }
+}
+
+.social-item  a {
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  transition: 0.2s;
+}
+
+.fb {
+  background: url(../../src/icons/fb_white.svg) no-repeat 50%, #006e4f;
+}
+
+.fb:hover,
+.fb:focus {
+  background: url(../../src/icons/fb.svg) no-repeat 50%, #fff;
+}
+
+.linkedin {
+  background: url(../../src/icons/in_white.svg) no-repeat 50%, #006e4f;
+}
+
+.linkedin:hover,
+.linkedin:focus {
+  background: url(../../src/icons/in.svg) no-repeat 50%, #fff;
+}
+
+.vk {
+  background: url(../../src/icons/vk_white.svg) no-repeat 50%, #006e4f;
+}
+
+.vk:hover,
+.vk:focus {
+  background: url(../../src/icons/vk.svg) no-repeat 50%, #fff;
+}

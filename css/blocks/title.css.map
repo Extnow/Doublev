@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,cAAe;EACb,MAAM,EAAE,CAAC;EACT,WAAW,EAAE,KAAK;EAClB,cAAc,EAAE,IAAI;EACpB,KAAK,EAAE,OAAO;EACd,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,CAAC;;AAGhB,yBAAyB;EACvB,cAAe;IACb,SAAS,EAAE,IAAI;IACf,OAAO,EAAE,MAAM",
-"sources": ["../../scss/blocks/title.scss"],
-"names": [],
-"file": "title.css"
-}
